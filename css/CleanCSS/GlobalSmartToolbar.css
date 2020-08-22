@@ -1,0 +1,446 @@
+/*
+    Global SmartToolbar CSS
+*/
+a {
+    text-decoration: none !important;
+}
+
+.dropdown-item-text-custom {
+    text-decoration: none !important;
+    /*display: block;*/
+    /*!*padding-left: 0.25rem 1.5rem;*!*/
+    color: rgba(0,0,0,0.871) !important;
+    /*background-color: white !important;*/
+    /*color: #fff !important;*/
+
+}
+select:focus {
+    outline: none !important;
+}
+
+.nav-item{
+    /*text-align: right;*/
+    display: block;
+    /*text-align: center;*/
+    padding-bottom: 0px;
+}
+nav li{
+    width: 100px;
+    text-align: center;
+}
+
+
+
+.navbar-toggler {
+    margin-right: 35px;
+}
+
+.navbar-collapse {
+    margin-right: 35px;
+    /*height: 100vh;*/
+    /*transition: all 0.5s ease-in-out; !*transition: property duration timing-function delay;*!*/
+    /*-moz-transition: all 0.5s ease-in-out;*/
+    /*-webkit-transition: all 0.5s ease-in-out;*/
+    float: left;
+}
+
+.navbar .nav-item {
+    margin-right: 35px;
+}
+
+.navbar {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+}
+
+.dropdown-menu {
+    margin-top: 0;
+}
+
+/*
+    Currently can't made dropdown fade in and out :(
+*/
+/*.dropdown:after {*/
+/*    transition: all 0.5s ease-in-out; !*transition: property duration timing-function delay;*!*/
+/*    -moz-transition: all 0.5s ease-in-out;*/
+/*    -webkit-transition: all 0.5s ease-in-out;*/
+/*}*/
+
+/*
+    From Hover example
+    https://www.tutorialrepublic.com/codelab.php?topic=faq&file=make-bootstrap-dropdown-menu-on-hover
+*/
+.bs-example{
+    margin: 20px;
+}
+@media screen and (min-width: 1300px) {
+    .dropdown:hover .dropdown-menu, .btn-group:hover .dropdown-menu{
+        display: block;
+    }
+    .dropdown-menu{
+        margin-top: 0;
+    }
+    .dropdown-toggle{
+        margin-bottom: 2px;
+    }
+    .navbar .dropdown-toggle, .nav-tabs .dropdown-toggle{
+        margin-bottom: 0;
+        height: 100vh !important;
+    }
+}
+
+
+
+
+.SmartToolbarShadow {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    overflow: visible;
+    width: 1458px;
+    height: 149px;
+    left: 0px;
+    top: 0px;
+}
+.SmartToolbarShadow_Class {
+    fill: rgb(255, 255, 255);
+}
+
+
+/*
+    Text CSS
+    Note: font-family: Poppins-Regular; changes drastically in safari
+*/
+
+
+
+.nav-link {
+    color: rgba(0,0,0,0.871) !important;
+    border-bottom: 1px solid rgba(0, 161, 241, 0);
+    transition: border-bottom-color 0.25s ease-in-out; /*transition: property duration timing-function delay;*/
+    -moz-transition: border-bottom-color 0.25s ease-in-out;
+    -webkit-transition: border-bottom-color 0.25s ease-in-out;
+
+    width: 110px;
+
+    font-size: 15px;
+}
+.nav-link:hover {
+    /*border-bottom: 1px solid rgba(0,161,241,1);*/
+
+}
+
+
+
+
+.NavLinkBlueBar {
+    display: none;
+}
+
+/*
+    Was going to start drawing rectangles but I think just using bottom_border is fine for this site
+*/
+.rectangle {
+    position: absolute;
+    rx: "0";
+    ry: "0";
+    x: "0";
+    y: "0";
+    width: 60px;
+    height: 1px;
+    top: 88px;
+    overflow: visible;
+    background-color: rgba(0,161,241,1);
+
+    /*display: none;*/
+    /*visibility: hidden;*/
+    /*display: block;*/
+    /*visibility: visible;*/
+}
+
+
+
+.dropdown-item {
+    color: rgba(0,161,241,1); !important;
+}
+.dropdown-item:hover {
+    color: rgba(0,161,241,1);
+}
+
+.SmartToolbarItemText {
+    line-height: 24px;
+    margin-top: -3.9178333282470703px;
+    text-align: center;
+    font-family: Poppins-Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16.16433334350586px;
+    color: rgba(0,0,0,0.871);
+    letter-spacing: 0.09279690742492676px;
+}
+
+.SmartToolbarDropdownItemText {
+    line-height: 24px;
+    margin-top: -7px;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    color: rgba(0,161,241,1);
+    letter-spacing: 0.09279690742492676px;
+}
+
+
+
+/*
+    Dropdown Menu Styling
+*/
+.dropdown-menu {
+    border-radius: 10px;
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    /*position: absolute;*/
+    /*overflow: visible;*/
+    /*height: 151px;*/
+    /*left: 0px;*/
+    /*top: 50px;*/
+    margin-top: 0px;
+    padding-top: 10px;
+    width: 150px;
+    border: none;
+}
+
+.dropdown-header {
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(0,0,0,0.871);
+    letter-spacing: 0.09279690742492676px;
+}
+
+
+
+
+/*@media (min-width: 1300px){*/
+/*    .navbar-expand-custom {*/
+/*        flex-direction: row;*/
+/*        flex-wrap: nowrap;*/
+/*        justify-content: flex-start;*/
+/*    }*/
+/*    .navbar-expand-custom .navbar-nav {*/
+/*        flex-direction: row;*/
+/*    }*/
+/*    .navbar-expand-custom .navbar-nav .nav-link {*/
+/*        padding-right: .5rem;*/
+/*        padding-left: .5rem;*/
+/*    }*/
+/*    .navbar-expand-custom .navbar-collapse {*/
+/*        display: flex!important;*/
+/*    }*/
+/*    .navbar-toggler {*/
+/*        display: none;*/
+/*    }*/
+/*}*/
+
+
+
+/*@media (min-width: 1250px) {*/
+/*    .navbar-expand-xl {*/
+/*        -ms-flex-flow: row nowrap;*/
+/*        flex-flow: row nowrap;*/
+/*        -ms-flex-pack: start;*/
+/*        justify-content: flex-start;*/
+/*    }*/
+/*    .navbar-expand-xl .navbar-nav {*/
+/*        -ms-flex-direction: row;*/
+/*        flex-direction: row;*/
+/*    }*/
+/*    .navbar-expand-xl .navbar-nav .dropdown-menu {*/
+/*        position: absolute;*/
+/*    }*/
+/*    .navbar-expand-xl .navbar-nav .nav-link {*/
+/*        padding-right: 0.5rem;*/
+/*        padding-left: 0.5rem;*/
+/*    }*/
+/*    .navbar-expand-xl > .container,*/
+/*    .navbar-expand-xl > .container-fluid, .navbar-expand-xl > .container-sm, .navbar-expand-xl > .container-md, .navbar-expand-xl > .container-lg, .navbar-expand-xl > .container-xl {*/
+/*        -ms-flex-wrap: nowrap;*/
+/*        flex-wrap: nowrap;*/
+/*    }*/
+/*    .navbar-expand-xl .navbar-collapse {*/
+/*        display: -ms-flexbox !important;*/
+/*        display: flex !important;*/
+/*        -ms-flex-preferred-size: auto;*/
+/*        flex-basis: auto;*/
+/*    }*/
+/*    .navbar-expand-xl .navbar-toggler {*/
+/*        display: none;*/
+/*    }*/
+/*}*/
+
+
+.arrow {
+    border: solid rgba(0,161,241,1);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-right: 5px;
+    margin-left: -15px;
+
+    /*transform:translate(9999px);*/
+    transition: opacity 0.25s linear;
+    opacity: 0;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.nav-link:hover .arrow{
+
+
+    transition: opacity 0.25s linear;
+    /*transform:translate(0);*/
+    opacity: 1;
+
+
+    border: solid rgba(0,161,241,1);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-right: 5px;
+    /*margin-left: -18.3px;*/
+
+
+}
+
+
+.Uncollapsed_Nav_List {
+    display: block;
+    visibility: visible;
+    float: right;
+    margin-right: -140vw;
+}
+.Collapsed_Nav_List {
+    display: none;
+    visibility: hidden;
+}
+
+
+.Global_Logo_Fluid {
+    /*position: absolute;*/
+    width: 300px;
+    padding-right: -300px;
+}
+
+.Global_Logo_Large_Image_Nav {
+    position: absolute;
+    max-width: 302px;
+    max-height: 48px;
+
+    margin-top: -18px;
+    margin-left: 30px;
+}
+
+.nav-item-dropdown {
+    /*margin-top: -20px;*/
+    padding-top: 0px;
+}
+.nav-link-dropdown {
+    color: rgba(0,161,241,1) !important;
+}
+
+
+
+
+
+
+
+@media (min-width: 1200px) {
+    .nav-link:hover {
+        border-bottom: 1px solid rgba(0,161,241,1);
+
+    }
+
+
+
+}
+
+@media (max-width: 1200px){
+    .nav-link:hover {
+        /*border-bottom: 1px solid rgba(0,161,241,1);*/
+
+    }
+
+    .Uncollapsed_Nav_List {
+        display: none;
+        visibility: hidden;
+    }
+    .Collapsed_Nav_List {
+        display: block;
+        visibility: visible;
+        margin-top: 30px;
+    }
+
+    .nav-item{
+        /*text-align: right;*/
+        display: block;
+        /*text-align: center;*/
+        padding: 14px;
+    }
+    nav li{
+        width: 100px;
+        text-align: left;
+    }
+    .dropdown-item {
+        text-align: left;
+        width: 110px;
+        justify-content: left;
+
+    }
+
+
+
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+    .nav-link {
+        text-align: center;
+    }
+
+    .Global_Logo_Large_Image_Nav {
+
+        margin-left: 0px;
+    }
+}
+
+@media (max-height: 780px){
+    .nav-item{
+        padding: 3px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .Global_Logo_Large_Image_Nav {
+        justify-content: right;
+        max-width: 200px;
+        margin-left: 0px;
+        margin-top: -12px;
+    }
+}
+
+
+@media (max-height: 580px){
+    .nav-item{
+        padding: 0px;
+    }
+}

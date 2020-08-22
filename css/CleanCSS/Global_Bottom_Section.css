@@ -1,0 +1,483 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700;800&display=swap');
+
+
+
+
+
+
+/*
+	Bottom Section
+*/
+#Bottom_Section a {
+    text-decoration: none;
+}
+
+#Bottom_Section {
+    position: relative;
+    bottom: 0;
+}
+.Bottom_Section_Base {
+    position: relative;
+    bottom: 0;
+    background-color: white;
+}
+
+
+
+.Bottom_Menu_Title a {
+    line-height: 24px;
+    margin-top: -4.3013434410095215px;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.397313117980957px;
+    color: rgba(0,161,241,1);
+    letter-spacing: 0.0974195957183838px;
+    text-decoration: none;
+}
+.Bottom_Menu_Item a {
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.397313117980957px;
+    color: rgba(0,0,0,0.6);
+    letter-spacing: 0.0974195957183838px;
+    text-decoration: none;
+}
+
+.Bottom_Menu_Container {
+    margin-right: 75px;
+    margin-left: 2px;
+}
+
+
+.Bottom_Menu_Section {
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    left: 0px;
+    /*top: 9982px;*/
+    top: 9800px;
+    /*overflow: visible;*/
+
+    padding-top: 28px;
+    padding-bottom: 28px;
+
+    margin-top: 100px;
+}
+
+
+.Bottom_Menu_Logo_Container {
+    padding-top: 15px;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-bottom: 75px;
+}
+.Bottom_Menu_Logo {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    /*left: 26.918px;*/
+    top: 35px;
+    overflow: visible;
+
+
+    left: 117px;
+}
+
+.Bottom_Menu_Column {
+    /*position: absolute;*/
+    /*width: 250px;*/
+    /*height: 242px;*/
+    /*left: 796px;*/
+    /*top: 9982px;*/
+    overflow: visible;
+
+    margin-left: 75px;
+    margin-right: 75px;
+    /*padding-bottom: 28px;*/
+}
+
+.Bottom_Menu_Title {
+    /*left: 2px;*/
+    /*top: 0px;*/
+    position: relative;
+    overflow: visible;
+    /*width: 181px;*/
+    /*height: 24px;*/
+    line-height: 24px;
+    margin-top: -4.3013434410095215px;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.397313117980957px;
+    color: rgba(0,161,241,1);
+    letter-spacing: 0.0974195957183838px;
+
+    padding-top: 28px;
+    /*padding-bottom: 28px;*/
+
+    margin-right: 75px;
+}
+
+.Bottom_Menu_Item {
+    /*left: 2px;*/
+    /*top: 56px;*/
+    position: relative;
+    overflow: visible;
+    /*width: 181px;*/
+    /*height: 24px;*/
+    line-height: 24px;
+    margin-top: -4.3013434410095215px;
+
+    padding-top: 28px;
+    padding-bottom: 28px;
+    margin-right: 75px;
+
+
+
+}
+.Bottom_Menu_Item_Font {
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.397313117980957px;
+    color: rgba(0,0,0,0.6);
+    letter-spacing: 0.0974195957183838px;
+}
+
+.Footer_Address {
+    /*right: 75px;*/
+    /*top: 10225px;*/
+    position: absolute;
+    overflow: visible;
+    /*width: 385px;*/
+    /*height: 213px;*/
+    text-align: right;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.397313117980957px;
+    color: rgba(0,0,0,0.6);
+    letter-spacing: 0.0974195957183838px;
+
+
+    float: right;
+    /*padding-top: 50px;*/
+    padding-right: 75px;
+    padding-bottom: 50px;
+}
+.Footer_Address_Fluid {
+    /*right: 75px;*/
+    /*top: 10225px;*/
+    /*position: absolute;*/
+    overflow: visible;
+    /*width: 385px;*/
+    /*height: 213px;*/
+    text-align: right;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.397313117980957px;
+    color: rgba(0,0,0,0.6);
+    letter-spacing: 0.0974195957183838px;
+
+
+    float: right;
+    /*padding-top: 50px;*/
+    /*padding-right: 75px;*/
+
+    margin-right: 60px;
+}
+
+.Footer_Company_Name {
+    /*left: 173px;*/
+    /*top: 10363px;*/
+    /*position: relative;*/
+    /*overflow: visible;*/
+    /*width: 374px;*/
+    /*height: 24px;*/
+    line-height: 24px;
+    margin-top: -4.3013434410095215px;
+    /*text-align: left;*/
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.397313117980957px;
+    color: rgba(0,0,0,0.6);
+    letter-spacing: 0.0974195957183838px;
+
+
+    padding-top: 50px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+.Footer_Background {
+    background-color: rgba(245,245,245,1);
+}
+
+
+.Bottom_Social_Class {
+    position: relative;
+    width: 180px;
+    height: 40px;
+    /*left: 1153px;*/
+    /*top: 10331.5px;*/
+    overflow: visible;
+
+    padding-bottom: 50px;
+    padding-right: 75px;
+
+    /*margin-bottom: 50px;*/
+    margin-right: 75px;
+}
+.Bottom_LinkedIn_Class {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 140px;
+    top: 0px;
+    overflow: visible;
+}
+.Bottom_Background_Class {
+    fill: rgba(250,250,250,1);
+}
+.Bottom_Background {
+    overflow: visible;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+.Bottom_LinkedIn_Icon_Class {
+    fill: rgba(0,0,0,0.38);
+}
+.Bottom_LinkedIn_Icon {
+    overflow: visible;
+    position: absolute;
+    width: 12.381px;
+    height: 12.382px;
+    left: 14.286px;
+    top: 13.333px;
+    transform: matrix(1,0,0,1,0,0);
+}
+.Bottom_Instagram_Class {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 93px;
+    top: 0px;
+    overflow: visible;
+}
+.Bottom_Background_Instagram_Class {
+    fill: rgba(250,250,250,1);
+}
+.Background_lv {
+    overflow: visible;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+.Bottom_Instagram_Icon_Class {
+    fill: rgba(0,0,0,0.38);
+}
+.Bottom_Instagram_Icon {
+    overflow: visible;
+    position: absolute;
+    width: 15.238px;
+    height: 15.238px;
+    left: 12.381px;
+    top: 12.381px;
+    transform: matrix(1,0,0,1,0,0);
+}
+.Bottom_Twitter_Class {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 47px;
+    top: 0px;
+    overflow: visible;
+}
+.Background_ly_Class {
+    fill: rgba(250,250,250,1);
+}
+.Background_ly {
+    position: absolute;
+    overflow: visible;
+    width: 40px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+}
+.Bottom_Twitter_Icon_Class {
+    fill: rgba(0,0,0,0.38);
+}
+.Bottom_Twitter_Icon {
+    overflow: visible;
+    position: absolute;
+    width: 12.381px;
+    height: 8.571px;
+    left: 13.333px;
+    top: 16.19px;
+    transform: matrix(1,0,0,1,0,0);
+}
+.Bottom_Facebook_Class {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+.Background_l_Class {
+    fill: rgba(250,250,250,1);
+}
+.Background_l {
+    position: absolute;
+    overflow: visible;
+    width: 40px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+}
+.Facebook_Icon_Class {
+    fill: rgba(53,142,215,1);
+}
+.Bottom_Facebook_Icon {
+    overflow: visible;
+    position: absolute;
+    width: 5.714px;
+    height: 12.381px;
+    left: 17.143px;
+    top: 13.333px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Bottom_Logo_Class {
+    position: absolute;
+    width: 103.454px;
+    height: inherit;
+    left: 90%;
+    top: 0%;
+    overflow: visible;
+}
+
+.Bottom_Logo_Orange_Class_Fluid {
+    /*position: absolute;*/
+    /*width: 103.454px;*/
+    /*height: inherit;*/
+    /*left: 90vw;*/
+    /*top: 0%;*/
+    /*overflow: visible;*/
+
+    /*padding-right: -50px;*/
+    margin-top: -70px;
+    margin-left: -50px;
+}
+.Bottom_Logo_Blue_Class_Fluid
+
+/*.P___stureHealth_Class {*/
+/*    left: 90px;*/
+/*    top: 15px;*/
+/*    !*position: absolute;*!*/
+/*    overflow: visible;*/
+/*    width: 302px;*/
+/*    white-space: nowrap;*/
+/*    text-align: left;*/
+/*    font-family: Poppins;*/
+/*    font-style: normal;*/
+/*    font-weight: bold;*/
+/*    font-size: 41px;*/
+/*    color: rgba(0,0,0,0.6);*/
+/*}*/
+
+
+
+.BottomRectangle {
+    position: relative;
+    width: 88%;
+    height: 1px;
+    top: 0px;
+    overflow: visible;
+    background-color: rgba(0, 0, 0, 0.6);
+
+    /*display: none;*/
+    /*visibility: hidden;*/
+    /*display: block;*/
+    /*visibility: visible;*/
+}
+
+.BottomRectangleFluid {
+    /*position: absolute;*/
+    height: 1px;
+    width: 100%;
+    /*object-fit: cover;*/
+    /*top: 0px;*/
+    /*overflow: visible;*/
+    background-color: rgba(0, 0, 0, 0.6);
+
+    margin-right: 90px;
+    margin-left: 90px;
+
+
+    /*display: none;*/
+    /*visibility: hidden;*/
+    /*display: block;*/
+    /*visibility: visible;*/
+}
+
+.Bottom_Section_Columns {
+    margin-right: 100px;
+}
+
+.img-fluid-custom-bottom {
+    position: absolute;
+    width: 300px;
+}
+
+
+
+
+@media screen and (max-width: 991px) {
+    .Bottom_Menu_Column {
+
+        margin-top: 30px;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    .Bottom_Menu_Column {
+        margin-left: 35px;
+        margin-right: 35px;
+        margin-top: 30px;
+    }
+    .BottomRectangleFluid {
+        margin-left: 45px;
+        margin-right: 45px;
+    }
+    .Footer_Address_Fluid {
+        margin-right: 15px;
+    }
+    .img-fluid-custom-bottom {
+        width: 200px;
+    }
+}
+
+
+

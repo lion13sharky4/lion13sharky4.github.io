@@ -1,0 +1,11 @@
+/*
+    TODO: Most the rest of the scrolling cards styling code to this file
+*/
+.Left_Arrow_Scrolling_Cards:hover .long_arrow_left_Class_Fluid {
+    transition: margin-left 200ms;
+    margin-left: -5px;
+}
+.Right_Arrow_Scrolling_Cards:hover .long_arrow_left_Class_Fluid {
+    transition: margin-left 200ms;
+    margin-left: -5px;
+}

@@ -1,0 +1,54 @@
+.Blue_Section {
+    background-color: rgba(25,192,247,1);
+    color: white;
+    padding: 75px;
+}
+.Blue_Section_Text_Container {
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+.In_Summary_Title_Fluid {
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(255,255,255,1);
+}
+.In_Summary_Text_Fluid {
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    color: rgba(255,255,255,1);
+}
+
+
+@media screen and (max-width: 800px) {
+    .Blue_Section_Text_Container {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .In_Summary_Title_Fluid {
+        font-size: 3vw;
+    }
+    .In_Summary_Text_Fluid {
+        font-size: 5vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .Blue_Section_Text_Container {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .Blue_Section {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}

@@ -1,0 +1,154 @@
+.Dual_Card_Title {
+    text-align: left;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    color: rgba(0,0,0,0.871);
+    letter-spacing: -0.08848798751831055px;
+
+    padding: 50px;
+}
+
+.Dual_Card_Subtitle {
+    text-align: left;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    color: rgba(0,0,0,0.6);
+    letter-spacing: 0.0974195957183838px;
+
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 150px;
+}
+
+.Dual_Card_Text {
+    width: 720px;
+    height: 560px;
+    padding: 80px;
+    margin: -40px;
+}
+
+.Dual_Card_Image {
+    width: 110%;
+    height: 110%;
+    /*width: 720px;*/
+    /*height: 560px;*/
+    /*padding: 80px;*/
+    /*margin: -40px;*/
+    /*min-height: auto;*/
+    /*background:  url('../../images/Clean/Global/Surface_cg.png') no-repeat center center /cover;*/
+
+
+    margin-left: 20px;
+    margin-top: -20px;
+    margin-right: 0px;
+    padding: 0px;
+}
+
+
+
+.DBlob1_Fluid_Outer {
+    overflow: hidden;
+    position: relative;
+    width: 80.38px;
+    height: 83.621px;
+    left: -25px;
+    top: 50px;
+}
+.DBlob1_Fluid {
+    position: absolute;
+    width: 80.38px;
+    height: 83.621px;
+    /*top: -250px;*/
+    /*right: 50px;*/
+}
+
+.DBlob2_Fluid_Outer {
+    overflow: hidden;
+    position: relative;
+    width: 80.38px;
+    height: 83.621px;
+    left: -25px;
+    top: 50px;
+}
+.DBlob2_Fluid {
+    position: absolute;
+    width: 80.38px;
+    height: 83.621px;
+    /*top: -250px;*/
+    /*right: 50px;*/
+}
+
+.DBlob3_Fluid_Outer {
+    overflow: hidden;
+    position: relative;
+    width: 52px;
+    height: 64px;
+    left: 25px;
+    top: 35px;
+}
+.DBlob3_Fluid_Outer2 {
+    overflow: hidden;
+    position: relative;
+    width: 52px;
+    height: 64px;
+    /*left: -35px;*/
+    top: 30px;
+}
+.DBlob3_Fluid {
+    position: absolute;
+    width: 52px;
+    height: 64px;
+    /*top: -250px;*/
+    /*right: 50px;*/
+}
+
+.DBlob4_Fluid_Outer {
+    overflow: hidden;
+    position: relative;
+    width: 52px;
+    height: 64px;
+    left: -35px;
+    top: 53vh;
+}
+.DBlob4_Fluid {
+    position: absolute;
+    width: 52px;
+    height: 64px;
+    /*top: -250px;*/
+    /*right: 50px;*/
+}
+
+
+.Shown_Card {
+    display: block;
+    visibility: visible;
+}
+
+.Hidden_Card {
+    display: none;
+    visibility: hidden;
+}
+
+
+
+
+@media screen and (max-width: 800px) {
+    .Dual_Column_Container {
+        margin-left: 0px;
+        margin-right: 50px;
+    }
+    .Dual_Card_Title {
+        font-size: 5vw;
+        padding: 10px;
+    }
+    .Dual_Card_Subtitle {
+        font-size: 4vw;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 30px;
+    }
+}

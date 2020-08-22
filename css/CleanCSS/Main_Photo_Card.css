@@ -1,0 +1,14 @@
+.Main_Card {
+    height: 700px;
+    background:transparent url('../../images/Clean/AboutUsClean/woman-in-white-t-shirt-using-a@2x.png') no-repeat top center /cover;
+}
+.Main_Card_Title_Text {
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    color: rgba(255,255,255,1);
+    letter-spacing: 0.3px;
+    /*width: 100%;*/
+}

@@ -1,0 +1,1303 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Home</title>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+			integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+			crossorigin="anonymous"></script>
+	<script src="../js/bootstrap.js"></script>
+	<script src="../js/GlobalSmartToolbar.js"></script>
+	<link rel="stylesheet" href="../css/bootstrap.css">
+	<link rel="stylesheet" href="../css/CleanCSS/Global.css">
+	<link rel="stylesheet" href="../css/CleanCSS/GlobalSmartToolbar.css">
+	<link rel="stylesheet" href="../css/CleanCSS/Global_Bottom_Section.css">
+	<link rel="stylesheet" href="../css/CleanCSS/Home.css">
+
+
+
+	<!--	Scrolling cards section-->
+	<script src="../js/Clean/ScrollingCards.js"></script>
+	<link rel="stylesheet" href="../css/CleanCSS/ScrollingCards.css">
+
+
+
+	<!--	Cookie Popup-->
+	<script src="../js/Clean/CookiePopup.js"></script>
+	<link rel="stylesheet" href="../css/CleanCSS/CookiePopup.css">
+
+</head>
+<body>
+
+
+<div>
+</div>
+
+
+<div class="container-fluid">
+<!--	Cookie Popup-->
+	<div id="CookieDiv" class="Cookie_Popup_Container rounded shadow">
+		<div class="row mt-4 ml-4 mr-4 mb-1">
+			<div class="Cookies_Title">
+				<span>This website uses cookies</span>
+			</div>
+		</div>
+		<div class="row mb-3 ml-4 mr-4">
+			<div class="Cookies_Text">
+				<span>We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services. You consent to our cookies if you continue to use our website. </span>
+			</div>
+		</div>
+
+		<div class="row ml-4 mb-4">
+			<button onclick="toggle_visibility('CookieDiv');" type="button" class="btn Cookie_Button">NECESSARY COOKIES</button>
+			<button onclick="toggle_visibility('CookieDiv');" type="button" class="btn Cookie_Button ml-2">ALLOW ALL COOKIES</button>
+		</div>
+	</div>
+<!--	Cookie Popup-->
+
+
+
+
+
+
+	<!--    New Smart Toolbar Start-->
+	<nav class="fixed-top navbar navbar-light py-4 navbar-expand-xl">
+		<div class="">
+			<a href="Home.html" class=" Global_Logo_Large_Image_Nav">
+				<img class="img-fluid" src="../images/Clean/Global/PostureHealthLogo.png">
+			</a>
+		</div>
+		<button class="navbar-toggler mr-0" type="button" data-toggle="collapse"
+				data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+				aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse Uncollapsed_Nav_List">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item" id="Toolbar_Button_About_Us">
+					<a class="nav-link" href="Home.html">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="Employers.html">Companies</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="Consumers.html">Consumers</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link "  id="navbarDropdownMenuLink" data-toggle="" aria-haspopup="true" aria-expanded="false">
+						About Us
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+						<a class="dropdown-item" href="AboutUs.html">Team</a>
+						<a class="dropdown-item" href="Careers.html">Careers</a>
+						<a class="dropdown-item" href="Partners.html">Partners</a>
+						<a class="dropdown-item" href="Contact_Us.html">Contact</a>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="Resources.html">Resources</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="FAQ.html">FAQ</a>
+				</li>
+			</ul>
+		</div>
+
+		<div class="ml-2 collapse navbar-collapse Collapsed_Nav_List" id="navbarSupportedContent">
+			<ul class="navbar-nav">
+				<li class="nav-item" >
+					<a class="nav-link nav-link-custom " href="Home.html"><i class="arrow right"></i> Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="Employers.html"><i class="arrow right"></i> Companies</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="Consumers.html"><i class="arrow right"></i> Consumers</a>
+				</li>
+				<li class="nav-item ">
+					<span class="nav-link">About Us</span>
+				</li>
+				<li class="nav-item nav-item-dropdown">
+					<a class=" nav-link nav-link-dropdown" href="AboutUs.html"><i class="arrow right"></i> Team</a>
+				</li>
+				<li class="nav-item nav-item-dropdown">
+					<a class=" nav-link nav-link-dropdown" href="Careers.html"><i class="arrow right"></i> Careers</a>
+				</li>
+				<li class="nav-item nav-item-dropdown">
+					<a class=" nav-link nav-link-dropdown" href="Partners.html"><i class="arrow right"></i> Partners</a>
+				</li>
+				<li class="nav-item nav-item-dropdown">
+					<a class=" nav-link nav-link-dropdown" href="Contact_Us.html"><i class="arrow right"></i> Contact</a>
+				</li>
+				<li class="nav-item ">
+					<a class="nav-link" href="Resources.html"><i class="arrow right"></i> Resources</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="FAQ.html"><i class="arrow right"></i> FAQ</a>
+				</li>
+			</ul>
+		</div>
+
+	</nav>
+	<!--	New Smart Toolbar End-->
+
+
+
+
+
+
+
+
+<!--	Main Screen-->
+	<div>
+
+<!--		Main starting picture section-->
+		<div class="row GRC_Main_Image"></div>
+		<div class="row Main_Card justify-content-center">
+			<div class="col GRC_Main_Image">
+
+				<div class="row justify-content-center" style="margin-top: 300px;">
+					<div class="Main_Card_Title_Text">
+						<span>Better Posture, Better Movement, Better Life</span>
+					</div>
+				</div>
+
+
+
+				<div class="row justify-content-center">
+					<div class="Main_Card_Subtitle_Text mt-5">
+						<span>Get real-time posture and movement tips and feedback while you work from home.</span>
+					</div>
+				</div>
+
+				<div class="row mt-5">
+					<div class="col-sm-6">
+						<div class="row ml-2 mr-2 justify-content-center Home_Main_Button1">
+							<button onclick="window.location.href='Employers.html';" type="button" class="btn Form_Blue_Button_Styles_Try mt-2">FOR COMPANIES</button>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="row ml-2 mr-2 justify-content-center Home_Main_Button2">
+							<button onclick="window.location.href='Consumers.html';" type="button" class="btn float-left Form_Blue_Button_Styles_Try mt-2">FOR INDIVIDUALS</button>
+						</div>
+					</div>
+
+
+					<div class="col-sm-4">
+
+					</div>
+				</div>
+
+				<div class="row GRC_Main_Image"></div>
+
+				<div class="row justify-content-center mt-5">
+					<!--        Scroll Arrow-->
+<!--					<a href="#Arrow_Scroll_End">-->
+					<a>
+						<div class="bounce">
+							<img class="" src="../images/Home/Mask_Group_25.png"
+								 srcset="../images/Home/Mask_Group_25.png 1x, ../images/Home/Mask_Group_25@2x.png 2x">
+						</div>
+					</a>
+				</div>
+
+
+			</div>
+		</div>
+
+
+		<!--    To Be Featured In Section-->
+		<div class="row my-auto GRC_Main_Image">
+			<div class="col-lg-4">
+				<div class="row mt-5 align-content-center justify-content-center">
+					<div  class="To_Be_Featured_In_Text_Style_Correct">
+						<span>To Be Featured In</span>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-2 mt-4">
+				<a  href="https://www.wsj.com/" target="_blank">
+					<div class="row align-content-center justify-content-center">
+						<img class="Wall_Street_Journal_Logo" src="../images/Clean/HomeClean/WallStreetJournal@2x.png"
+							 onmouseover="this.src='../images/Clean/HomeClean/WallStreetJournalHover@2x.png';"
+							 onmouseout="this.src='../images/Clean/HomeClean/WallStreetJournal@2x.png';">
+					</div>
+				</a>
+			</div>
+			<div class="col-lg-2 mt-5">
+				<a  href="https://techcrunch.com/" target="_blank">
+					<div class="row align-content-center justify-content-center">
+						<img id="Arrow_Scroll_End" class="Tech_Crunch_Logo" src="../images/Clean/HomeClean/TechCrunch.png"
+							 onmouseover="this.src='../images/Clean/HomeClean/TechCrunchHover.png';"
+							 onmouseout="this.src='../images/Clean/HomeClean/TechCrunch.png';">
+					</div>
+				</a>
+			</div>
+			<div class="col-lg-2 mt-5">
+				<a  href="https://www.forbes.com/" target="_blank">
+					<div class="row align-content-center justify-content-center">
+						<img class="Forbes_Logo" src="../images/Clean/HomeClean/Forbes@2x.png"
+							 onmouseover="this.src='../images/Clean/HomeClean/ForbesHover@2x.png';"
+							 onmouseout="this.src='../images/Clean/HomeClean/Forbes@2x.png';">
+					</div>
+				</a>
+			</div>
+			<div class="col-lg-2 mt-5">
+				<a  href="https://www.buzzfeed.com/" target="_blank">
+					<div class="row align-content-center justify-content-center">
+						<img class="Buzz_Feed_Logo" src="../images/Clean/HomeClean/BuzzFeed.png"
+							 onmouseover="this.src='../images/Clean/HomeClean/BuzzFeedHover.png';"
+							 onmouseout="this.src='../images/Clean/HomeClean/BuzzFeed.png';">
+					</div>
+				</a>
+			</div>
+		</div>
+
+		<!--		BLOB-->
+		<div class="row float-left Blob1_Fluid_Outer">
+			<img class="Blob1_Fluid" src="../images/Home/ID14.png"
+				 srcset="../images/Home/ID14.png 1x, ../images/Home/ID14@2x.png 2x">
+		</div>
+
+<!--		BLOB-->
+		<div class="row float-right Blob2_Fluid_Outer">
+			<img class="Blob2_Fluid" src="../images/Home/ID18.png"
+				 srcset="../images/Home/ID18.png 1x, ../images/Home/ID18@2x.png 2x">
+		</div>
+
+
+
+
+
+<!--	General information section-->
+		<div class="row justify-content-center GRC_Main_Image">
+			<div class="justify-content-center Main_Subtitle">
+				<span>Most people don’t know how to sit and stand properly.<br>
+Learn with PostureHealth. Practice and get feedback.<br>
+					Stay active with walk breaks and exercises.
+				</span>
+			</div>
+		</div>
+
+
+		<div class="row GRC_Main_Image"></div>
+
+
+
+<!--		Title-->
+		<div class="row justify-content-center">
+			<div class=" Main_Subtitle">
+				<span>
+					It’s Ergonomics, Made Simple
+				</span>
+			</div>
+		</div>
+		<div class="row justify-content-center mt-1">
+			<div class="Title_Rect_Blue"></div>
+		</div>
+
+<!--		Blob-->
+		<div class="row">
+			<div class="col-sm-12">
+				<div class=" float-right">
+					<div class="row Blob3_Fluid_Outer">
+						<img class="Blob3_Fluid" src="../images/Home/ID8.png"
+							 srcset="../images/Home/ID8.png 1x, ../images/Home/ID8@2x.png 2x">
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+		<!--		Dual Column section-->
+		<div>
+<!--			<div class="row GRC_Main_Image Dual_Column_Container">-->
+			<div class="row GRC_Main_Image">
+				<div class="col-lg-6 col-lg-pull-6 col-lg-6 Hidden_Card">
+					<div class="row justify-content-center">
+						<div class="Dual_Card_Title">
+							<span>Tips to sit, stand, and set up a comfy workstation</span>
+						</div>
+					</div>
+					<div class="row justify-content-center">
+						<div class="Dual_Card_Subtitle">
+							<span>Learn how to sit and stand comfortably on your couch, stool, desk, and more as you work from home.</span>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="col-lg-push-6 col-lg-6 col-lg-6">
+					<!--		BLOB-->
+					<div class="row float-left DBlob1_Fluid_Outer">
+						<img class="DBlob1_Fluid" src="../images/Home/ID1_h.png"
+							 srcset="../images/Home/ID1_h.png 1x, ../images/Home/ID1_h@2x.png 2x">
+					</div>
+
+					<div class=" mt-5 mb-5">
+						<img src="../media/videos/Tips to Sit.png" class="img-fluid" />
+<!--						<video class="img-fluid" width="320" height="240" autoplay loop muted playsinline>-->
+<!--							<source src="../media/videos/100.mp4" type="video/mp4" />-->
+<!--						</video>-->
+					</div>
+				</div>
+
+				<div class="col-lg-6 col-lg-pull-6 col-lg-6 Shown_Card">
+					<div class="row">
+						<div class="Dual_Card_Title">
+							<span>Tips to sit, stand, and set up a comfy workstation</span>
+						</div>
+					</div>
+					<div class="row ">
+						<div class="Dual_Card_Subtitle">
+							<span>Learn how to sit and stand comfortably on your couch, stool, desk, and more as you work from home.</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row GRC_Main_Image">
+				<div class="col-lg-6 col-lg-6">
+					<div class="row">
+						<div class="Dual_Card_Title">
+							<span>100% secure real-time posture correction</span>
+						</div>
+					</div>
+					<div class="row ">
+						<div class="Dual_Card_Subtitle">
+							<span>AI & augmented reality using your webcam coaching you to better posture habits. Rest assure, PostureHealth doesn’t record or store any visuals.</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-lg-6">
+					<!--		BLOB-->
+					<div class=" float-left DBlob2_Fluid_Outer">
+						<img class="DBlob2_Fluid" src="../images/Home/ID1_h.png"
+							 srcset="../images/Home/ID1_h.png 1x, ../images/Home/ID1_h@2x.png 2x">
+					</div>
+
+					<div class=" mt-5 mb-5">
+<!--						<img src="../images/Clean/Global/Surface_cg.png" class="img-fluid"/>-->
+						<video class="img-fluid" width="320" height="240" autoplay loop muted playsinline>
+							<source src="../media/videos/100.mp4" type="video/mp4" />
+						</video>
+					</div>
+				</div>
+			</div>
+			<div class="row GRC_Main_Image">
+				<div class="col-lg-6 col-lg-pull-6 col-lg-6 Hidden_Card">
+					<div class="row">
+						<div class="Dual_Card_Title">
+							<span>Walk breaks and Exercise to feel</span>
+						</div>
+					</div>
+					<div class="row ">
+						<div class="Dual_Card_Subtitle">
+							<span>Walk break reminders and fun exercises to keep your back and joints active and healthy while you work.</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-push-6 col-lg-6 col-lg-6">
+					<!--		BLOB-->
+					<div class=" float-right DBlob3_Fluid_Outer">
+						<img class="DBlob3_Fluid" src="../images/Home/ID1_hz.png"
+							 srcset="../images/Home/ID1_hz.png 1x, ../images/Home/ID1_hz@2x.png 2x">
+					</div>
+
+					<div class=" mt-5 mb-5">
+						<img src="../media/videos/Walk Breaks and Exercises.png" class="img-fluid" />
+<!--						<video class="img-fluid" width="320" height="240" autoplay loop muted playsinline>-->
+<!--							<source src="../media/videos/Fun and Motivational Dashboard.mp4" type="video/mp4" />-->
+<!--						</video>-->
+					</div>
+				</div>
+
+				<div class="col-lg-6 col-lg-pull-6 col-lg-6 Shown_Card">
+					<div class="row">
+						<div class="Dual_Card_Title">
+							<span>Walk breaks and Exercise to feel</span>
+						</div>
+					</div>
+					<div class="row ">
+						<div class="Dual_Card_Subtitle">
+							<span>Walk break reminders and fun exercises to keep your back and joints active and healthy while you work.</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row GRC_Main_Image">
+				<div class="col-lg-6 col-lg-6">
+					<div class="row">
+						<div class="Dual_Card_Title">
+							<span>Fun and motivational dashboard</span>
+						</div>
+					</div>
+					<div class="row ">
+						<div class="Dual_Card_Subtitle">
+							<span>Crush your walk break and exercise goals, and aim to improve your healthy posture percentage.</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-lg-6 ">
+					<div class=" float-left DBlob1_Fluid_Outer">
+						<img class="DBlob3_Fluid" src="../images/Home/ID1_hz.png"
+							 srcset="../images/Home/ID1_hz.png 1x, ../images/Home/ID1_hz@2x.png 2x">
+					</div>
+
+					<div class=" mt-5 mb-5">
+<!--						<img src="../images/Clean/Global/Surface_cg.png" class="img-fluid"/>-->
+						<video class="img-fluid" style="width: 120%; max-width: 120%; margin-left: -15%; margin-top: -10%;" width="320" height="240" autoplay loop muted playsinline>
+							<source src="../media/videos/Fun and Motivational Dashboard.mp4" type="video/mp4" />
+						</video>
+
+<!--						<div class="mission-statement">-->
+<!--							<video style="min-height:100%" playsinline autoplay muted loop id="bgvid">-->
+<!--								<source src="../media/videos/Fun and Motivational Dashboard.mp4" type="video/mp4">-->
+<!--							</video>-->
+<!--						</div>-->
+					</div>
+				</div>
+
+			</div>
+			<div class="row GRC_Main_Image">
+				<div class="col-lg-6 col-lg-pull-6 col-lg-6 Hidden_Card">
+					<div class="row">
+						<div class="Dual_Card_Title">
+							<span>Custom Programs For All of You Fitness Needs</span>
+						</div>
+					</div>
+					<div class="row ">
+						<div class="Dual_Card_Subtitle">
+							<span>Walk break reminders and fun exercises to keep your back and joints active and healthy while you work.</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-push-6 col-lg-6 col-lg-6">
+
+					<!--		BLOB-->
+					<div class=" float-left DBlob1_Fluid_Outer">
+						<img class="DBlob3_Fluid" src="../images/Home/ID1_hz.png"
+							 srcset="../images/Home/ID1_hz.png 1x, ../images/Home/ID1_hz@2x.png 2x">
+					</div>
+
+					<div class=" mt-5 mb-5">
+<!--						<img src="../images/Clean/Global/Surface_cg.png" class="img-fluid" />-->
+						<video class="img-fluid" style="width: 120%; max-width: 120%; margin-left: -15%; margin-top: -10%;" width="320" height="240" autoplay loop muted playsinline>
+							<source src="../media/videos/Guided Programs.mp4" type="video/mp4" />
+						</video>
+
+					</div>
+
+				</div>
+
+				<div class="col-lg-6 col-lg-pull-6 col-lg-6 Shown_Card">
+					<div class="row">
+						<div class="Dual_Card_Title">
+							<span>Custom Programs For All of You Fitness Needs</span>
+						</div>
+					</div>
+					<div class="row ">
+						<div class="Dual_Card_Subtitle">
+							<span>Walk break reminders and fun exercises to keep your back and joints active and healthy while you work.</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+
+		<!--		Blob-->
+		<div class="row Blob5_Fluid_Outer">
+			<img class="Blob5_Fluid img-fluid" src="../images/Home/ID8_ou.png"
+				 srcset="../images/Home/ID8_ou.png 1x, ../images/Home/ID8_ou@2x.png 2x">
+		</div>
+
+		<!--		Blue Section-->
+		<div class="row Blue_Section">
+			<div class="col Blue_Section_Text_Container">
+				<div class="row justify-content-start">
+					<div class="In_Summary_Title_Fluid">
+						<span>In Summary...</span>
+					</div>
+				</div>
+				<div class="row justify-content-start">
+					<div class="In_Summary_Text_Fluid">
+						<span>PostureHealth is easy to implement and your employees will love it</span>
+					</div>
+				</div>
+				<div class="row mt-5">
+					<div class="col-xl-3 mb-3">
+						<div class="row">
+							<button onclick="window.location.href='Employers.html';" type="button" class="btn mr-2 float-left Form_White_Button_Styles_Try mt-2">FOR COMPANIES</button>
+						</div>
+					</div>
+					<div class="col-xl-3 mb-3">
+						<div class="row">
+							<button onclick="window.location.href='Consumers.html';" type="button" class="btn mr-2 float-left Form_White_Button_Styles_Try mt-2">FOR INDIVIDUALS</button>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+
+
+<!--	Red Circle Section Mobile iPhone5 Work Around-->
+		<div class="row mt-5">
+			<div class="col-md-4">
+				<div class="">
+					<img class="img-fluid" src="../images/Circles/Red%20Circle%201.png">
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="">
+					<img class="img-fluid" src="../images/Circles/Red%20Circle%202.png">
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="">
+					<img class="img-fluid" src="../images/Circles/Red%20Circle%203.png">
+				</div>
+			</div>
+		</div>
+
+<!--		&lt;!&ndash;		Red Circle Section&ndash;&gt;-->
+<!--		<div id="test1" class="row justify-content-center">-->
+<!--			<div class="col">-->
+<!--				<div class="row mt-5">-->
+<!--					<div class="col-lg-12">-->
+<!--						<div class="Card_Scroll_Title_Fluid_Download">-->
+<!--							<span>The Problem is Bigger Than You Think</span>-->
+<!--						</div>-->
+<!--					</div>-->
+<!--				</div>-->
+
+<!--				<div class="row mt-2 justify-content-center">-->
+<!--					<div class="col-xs-12">-->
+<!--						<div class="Card_Scroll_Blue_Rect_Fluid_Download"></div>-->
+<!--					</div>-->
+<!--				</div>-->
+
+
+
+
+<!--				<div class="row justify-content-center">-->
+<!--					<div class="col-lg-4 mt-5">-->
+<!--						<div class="row justify-content-center">-->
+<!--							<div class="col">-->
+<!--								<div class="row justify-content-center">-->
+<!--									<div class="Circle_Title">-->
+<!--										<span>Ergonomic Pain</span>-->
+<!--									</div>-->
+<!--								</div>-->
+
+
+<!--								<div class="row justify-content-center" style="height: 350px;">-->
+<!--									<svg class="NRed_Circle_1_Container justify-content-center">-->
+<!--										<ellipse class="NRed_Circle_1_White_Class" rx="150" ry="150" cx="175" cy="175">-->
+<!--										</ellipse>-->
+<!--									</svg>-->
+
+<!--									<svg class="NRed_Circle_Fill_Custom" viewBox="-23 -23 330 330">-->
+<!--										<path class="NRed_Circle_Fill_Custom_Class"-->
+<!--											  d="M 141 0 C 170.1240844726562 0 197.1858062744141 8.830011367797852 219.8204498291016 24.07113265991211 C 257.2615966796875 49.28182983398438 282 92.25193786621094 282 141 C 282 218.8721466064453 218.8721466064453 282 141 282 C 63.12785339355469 282 0 218.8721466064453 0 141 C 0 63.12785339355469 63.12785339355469 0 141 0 Z">-->
+<!--										</path>-->
+<!--									</svg>-->
+<!--								</div>-->
+
+<!--								<div class="Circle_Mid_Text_Container">-->
+<!--									<div class="Circle_Mid_Text1">-->
+<!--										<span>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;%</span>-->
+<!--									</div>-->
+<!--									<div class="Circle_Mid_Text2">-->
+<!--										<span>70</span>-->
+<!--									</div>-->
+<!--									<div class="Circle_Mid_Text3">-->
+<!--										<span>of people</span>-->
+<!--									</div>-->
+<!--								</div>-->
+
+<!--								<div class="row justify-content-center">-->
+<!--									<div class="Circle_Desc">-->
+<!--										<span>experience <br> ergonomic pain</span>-->
+<!--									</div>-->
+<!--								</div>-->
+<!--							</div>-->
+<!--						</div>-->
+
+<!--					</div>-->
+<!--					<div class="col-lg-4 mt-5">-->
+<!--						<div class="row justify-content-center">-->
+<!--							<div class="col">-->
+<!--								<div class="row justify-content-center">-->
+<!--									<div class="Circle_Title">-->
+<!--										<span>Lost Work Days</span>-->
+<!--									</div>-->
+<!--								</div>-->
+
+<!--								<div class="row justify-content-center" style="height: 350px;">-->
+<!--									<svg class="NRed_Circle_1_Container justify-content-center">-->
+<!--										<ellipse class="NRed_Circle_1_White_Class" rx="150" ry="150" cx="175" cy="175">-->
+<!--										</ellipse>-->
+<!--										<ellipse class="NRed_Circle_1_Fill_Class" rx="150" ry="150" cx="175" cy="175">-->
+<!--										</ellipse>-->
+<!--									</svg>-->
+<!--								</div>-->
+
+<!--								<div class="Circle_Mid_Text_Container">-->
+<!--									<div class="Circle_Mid_Text1">-->
+<!--										<span></span>-->
+<!--									</div>-->
+<!--									<div class="Circle_Mid_Text2">-->
+<!--										<span>11.4</span>-->
+<!--									</div>-->
+<!--									<div class="Circle_Mid_Text3">-->
+<!--										<span>lost workdays</span>-->
+<!--									</div>-->
+<!--								</div>-->
+
+<!--								<div class="row justify-content-center">-->
+<!--									<div class="Circle_Desc">-->
+<!--										<span>each year due to <br> ergonomic pain</span>-->
+<!--									</div>-->
+<!--								</div>-->
+<!--							</div>-->
+<!--						</div>-->
+
+<!--					</div>-->
+<!--					<div class="col-lg-4 mt-5">-->
+<!--						<div class="row justify-content-center">-->
+<!--							<div class="col">-->
+<!--								<div class="row justify-content-center">-->
+<!--									<div class="Circle_Title">-->
+<!--										<span>Heart Attack</span>-->
+<!--									</div>-->
+<!--								</div>-->
+
+<!--								<div class="row justify-content-center" style="height: 350px;">-->
+<!--										<svg class="NRed_Circle_1_Container justify-content-center">-->
+<!--											<ellipse class="NRed_Circle_1_White_Class" rx="150" ry="150" cx="175" cy="175">-->
+<!--											</ellipse>-->
+<!--											<ellipse class="NRed_Circle_1_Fill_Class" rx="150" ry="150" cx="175" cy="175">-->
+<!--											</ellipse>-->
+<!--										</svg>-->
+<!--								</div>-->
+
+<!--								<div class="Circle_Mid_Text_Container">-->
+<!--									<div class="Circle_Mid_Text1-1">-->
+<!--										<span>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;%</span>-->
+<!--									</div>-->
+<!--									<div class="Circle_Mid_Text2-2">-->
+<!--										<span><span style="font-size: 60px;">+</span>100</span>-->
+<!--									</div>-->
+<!--									<div class="Circle_Mid_Text3">-->
+<!--										<span>risk</span>-->
+<!--									</div>-->
+<!--								</div>-->
+
+<!--								<div class="row justify-content-center">-->
+<!--									<div class="Circle_Desc">-->
+<!--										<span>of heart attack and <br> dsiabetes for people <br> with sitting jobs</span>-->
+<!--									</div>-->
+<!--								</div>-->
+<!--							</div>-->
+<!--						</div>-->
+
+<!--					</div>-->
+<!--				</div>-->
+<!--			</div>-->
+<!--		</div>-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<!--		Scrolling Card Section-->
+		<!--https://codepen.io/colinlord/pen/oZNoOO?__cf_chl_jschl_tk__=23412ad0b4162911fa11a97b788fab90d0e85ee2-1592237398-0-AWL7TykfEJtv7l6CjH8DmxI935RcC1r0VR_IhD0NIoWJxu3YznUoHAwlc262vsNJBjfg3rdAD9RY874WcK7Jn1WWBV0dD63tpzn7RM9ovYWn9B7jaARTTa0nMXfGlgm2Ki8SHfvHwcH4FZO25KJCbXxpvAcnpnzVxNcO4bzkGSpl1LCKjnM4IHsfuE2BWIY_ZYnN2ohsOrtTvQg2p9gUvoa4Dd-BrO1RbmYw24UZe0L3Ktlkcqu-HvFRSx6XnlGQsx2hg6THMU3snwwd8QyDxt0yoRWZIzJNrDthh94t_VV5PefNow86GuwKmhaM4V7eSQt6Y7j8l_yvXrLlx-yfroPDTFYoOhvcaN241HX3qT4X-->
+		<!--	https://uxdesign.cc/creating-horizontal-scrolling-containers-the-right-way-css-grid-c256f64fc585-->
+		<div class="row mt-5 justify-content-center Card_Scroll_List_Back_Rect_Container_Fluid">
+			<div class="col Card_Scroll_List_Back_Rect_Container_Fluid">
+				<div class="row mt-5">
+					<div class="col-lg-12">
+						<div class="Card_Scroll_Title_Fluid_Download">
+							<span>What People Say About PostureHealth</span>
+						</div>
+					</div>
+				</div>
+				<div class="row mt-2 justify-content-center">
+					<div class="col-xs-12">
+						<div class="Card_Scroll_Blue_Rect_Fluid_Download"></div>
+					</div>
+				</div>
+
+
+				<div id="Scrolling_Cards_Container" class="row-scroll no-scrollbar">
+					<div id="ScrollCard1" class="card Card_Scroll_Card_Fluid Card_Scroll_Card_Container_1_Fluid col-lg-4">
+<!--					<div id="ScrollCard1" class="card Card_Scroll_Card_Fluid  col-lg-4">-->
+						<img class="Mask_Group_33_Class_Fluid" src="../images/Home/Mask_Group_33.png"
+							 srcset="../images/Home/Mask_Group_33.png 1x, ../images/Home/Mask_Group_33@2x.png 2x">
+						<div class="The_first_is_a_non_t_Class_Fluid">
+							<span>“This app is great for anyone who wants to prevent back and joint pain.”</span>
+						</div>
+						<div class="__Color__Secondary__Main_Class_Fluid">
+							<svg class="Rectangle_13_di_Fluid">
+								<rect class="Rectangle_13_di_Class_Fluid" rx="0" ry="0" x="0" y="0" width="337"
+									  height="105">
+								</rect>
+							</svg>
+						</div>
+						<div class=" Images__Avatar__Circular_Class_Fluid">
+							<img class="_Avatar_Image_Class_Fluid" src="../images/Home/_Avatar_Image.png"
+								 srcset="../images/Home/_Avatar_Image.png 1x, ../images/Home/_Avatar_Image@2x.png 2x">
+						</div>
+						<div class="Fannie_Chapman_Class_Fluid">
+							<span>Our Lady of the Lake </span>
+						</div>
+						<div class="HR_Specialist_Class_Fluid">
+							<span>Dr. Dawn Swanson</span>
+						</div>
+					</div>
+
+
+
+
+
+					<div class="card Card_Scroll_Card_Fluid Card_Scroll_Card_Container_1_Fluid col-lg-12">
+						<img class="Mask_Group_33_Class_Fluid" src="../images/Home/Mask_Group_33.png"
+							 srcset="../images/Home/Mask_Group_33.png 1x, ../images/Home/Mask_Group_33@2x.png 2x">
+						<div class="The_first_is_a_non_t_Class_Fluid">
+							<span>“It's tough for us to meet our employee ergonomic needs across regions... I like this a scalable solution.”</span>
+						</div>
+						<div class="__Color__Secondary__Main_Class_Fluid">
+							<svg class="Rectangle_13_di_Fluid">
+								<rect class="Rectangle_13_di_Class_Fluid" rx="0" ry="0" x="0" y="0" width="337"
+									  height="105">
+								</rect>
+							</svg>
+						</div>
+						<div class=" Images__Avatar__Circular_Class_Fluid">
+							<img class="_Avatar_Image_Class_Fluid" src="../images/Home/_Avatar_Image.png"
+								 srcset="../images/Home/_Avatar_Image.png 1x, ../images/Home/_Avatar_Image@2x.png 2x">
+						</div>
+						<div class="Fannie_Chapman_Class_Fluid">
+							<span>Head of HR at LoopUp </span>
+						</div>
+						<div class="HR_Specialist_Class_Fluid">
+							<span>Angel Junio</span>
+						</div>
+					</div>
+					<div class="card Card_Scroll_Card_Fluid Card_Scroll_Card_Container_1_Fluid col-lg-12">
+						<img class="Mask_Group_33_Class_Fluid" src="../images/Home/Mask_Group_33.png"
+							 srcset="../images/Home/Mask_Group_33.png 1x, ../images/Home/Mask_Group_33@2x.png 2x">
+						<div class="The_first_is_a_non_t_Class_Fluid">
+							<span>“Before Posturehealth I had no idea how to sit, stand, or set up my workstation to be comfortable. I correct myself all the time now.”</span>
+						</div>
+						<div class="__Color__Secondary__Main_Class_Fluid">
+							<svg class="Rectangle_13_di_Fluid">
+								<rect class="Rectangle_13_di_Class_Fluid" rx="0" ry="0" x="0" y="0" width="337"
+									  height="105">
+								</rect>
+							</svg>
+						</div>
+						<div class=" Images__Avatar__Circular_Class_Fluid">
+							<img class="_Avatar_Image_Class_Fluid" src="../images/Home/_Avatar_Image.png"
+								 srcset="../images/Home/_Avatar_Image.png 1x, ../images/Home/_Avatar_Image@2x.png 2x">
+						</div>
+						<div class="Fannie_Chapman_Class_Fluid" style="font-size: 13px;">
+							<span>Software Engineer at American Express</span>
+						</div>
+						<div class="HR_Specialist_Class_Fluid">
+							<span>Scott Syme</span>
+						</div>
+					</div>
+					<div id="ScrollCard4" class="card Card_Scroll_Card_Fluid Card_Scroll_Card_Container_1_Fluid col-lg-12">
+						<img class="Mask_Group_33_Class_Fluid" src="../images/Home/Mask_Group_33.png"
+							 srcset="../images/Home/Mask_Group_33.png 1x, ../images/Home/Mask_Group_33@2x.png 2x">
+						<div class="The_first_is_a_non_t_Class_Fluid">
+							<span>“I value my privacy. I love that I can turn it on and off at any time just like a video conference and no video is ever stored or recorded.”</span>
+						</div>
+						<div class="__Color__Secondary__Main_Class_Fluid">
+							<svg class="Rectangle_13_di_Fluid">
+								<rect class="Rectangle_13_di_Class_Fluid" rx="0" ry="0" x="0" y="0" width="337"
+									  height="105">
+								</rect>
+							</svg>
+						</div>
+						<div class=" Images__Avatar__Circular_Class_Fluid">
+							<img class="_Avatar_Image_Class_Fluid" src="../images/Home/_Avatar_Image.png"
+								 srcset="../images/Home/_Avatar_Image.png 1x, ../images/Home/_Avatar_Image@2x.png 2x">
+						</div>
+						<div class="Fannie_Chapman_Class_Fluid">
+							<span>BDR at Oracle</span>
+						</div>
+						<div class="HR_Specialist_Class_Fluid">
+							<span>Ralph Walendy-Wrigley</span>
+						</div>
+					</div>
+
+				</div>
+
+
+				<div class="row Arrow_Container_Fluid">
+					<div class="col-6">
+						<div class="row float-left justify-content-start">
+							<a id="Left_Arrow" class="Left_Arrow_Scrolling_Cards" style="transform: translate(-58px, -6072px) matrix(1,0,0,1,58,6072) rotate(180deg);" onclick="leftArrowClick()">
+<!--							<a class="Left_Arrow_Scrolling_Cards" href="#ScrollCard1" style="transform: translate(-58px, -6072px) matrix(1,0,0,1,58,6072) rotate(180deg);">-->
+								<svg class="Path_Fluid" viewBox="0 0 20 40">
+									<path class="Path_Class"
+										  d="M 0 40 L 0 40 C 11.04569530487061 40 20 31.04569435119629 20 20 C 20 8.954304695129395 11.04569530487061 0 0 0">
+									</path>
+								</svg>
+								<div class="long_arrow_left_Class_Fluid">
+									<svg class="Path_fr" viewBox="-22 0 22 8">
+										<path class="Path_fr_Class" d="M -4 0 L 0 4 L -4 8 L -4 5 L -22 5 L -22 3 L -4 3 L -4 0 Z">
+										</path>
+									</svg>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-6">
+						<div class="row float-right justify-content-start">
+							<a id="Right_Arrow" class="Right_Arrow_Scrolling_Cards" onclick="rightArrowClick()">
+<!--							<a class="Right_Arrow_Scrolling_Cards" href="#ScrollCard4">-->
+								<svg class="Path_Fluid" viewBox="0 0 20 40">
+									<path class="Path_Class"
+										  d="M 0 40 L 0 40 C 11.04569530487061 40 20 31.04569435119629 20 20 C 20 8.954304695129395 11.04569530487061 0 0 0">
+									</path>
+								</svg>
+								<div class="long_arrow_left_Class_Fluid">
+									<svg class="Path_fr" viewBox="-22 0 22 8">
+										<path class="Path_fr_Class" d="M -4 0 L 0 4 L -4 8 L -4 5 L -22 5 L -22 3 L -4 3 L -4 0 Z">
+										</path>
+									</svg>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+
+
+		</div>
+
+
+
+
+
+
+
+
+
+		<!--	Blue Circle Section Mobile iPhone5 Work Around-->
+		<div class="row mt-5">
+			<div class="col-md-4">
+				<div class="">
+					<img class="img-fluid" src="../images/Circles/Blue%20Circle%201.png">
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="">
+					<img class="img-fluid" src="../images/Circles/Blue%20Circle%202.png">
+				</div>
+			</div>
+			<div class="col-md-4" style="z-index: -1;">
+				<div class="">
+					<img class="img-fluid" src="../images/Circles/Blue%20Circle%203.png">
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+
+		<!--		Blob-->
+		<div class="row Blob5_Fluid_Outer">
+			<img class="Blob5_Fluid img-fluid" src="../images/Home/ID8_ou.png"
+				 srcset="../images/Home/ID8_ou.png 1x, ../images/Home/ID8_ou@2x.png 2x">
+		</div>
+
+		<!--		Blue Section-->
+		<div class="row Blue_Section">
+			<div class="col Blue_Section_Text_Container">
+				<div class="row justify-content-start">
+					<div class="In_Summary_Title_Fluid">
+						<span>In Summary...</span>
+					</div>
+				</div>
+				<div class="row justify-content-start">
+					<div class="In_Summary_Text_Fluid">
+						<span>PostureHealth is easy to implement and your employees will love it</span>
+					</div>
+				</div>
+				<div class="row mt-5">
+					<!--					<div class="col-sm-6">-->
+					<!--						<div class="row ml-2 mr-2 justify-content-center Home_Main_Button1">-->
+					<!--							<button onclick="window.location.href='Employers.html';" type="button" class="btn Form_Blue_Button_Styles_Try mt-2">FOR COMPANIES</button>-->
+					<!--						</div>-->
+					<!--					</div>-->
+					<!--					<div class="col-sm-6">-->
+					<!--						<div class="row ml-2 mr-2 justify-content-center Home_Main_Button2">-->
+					<!--							<button onclick="window.location.href='Consumers.html';" type="button" class="btn float-left Form_Blue_Button_Styles_Try mt-2">FOR INDIVIDUALS</button>-->
+					<!--						</div>-->
+					<!--					</div>-->
+
+
+					<div class="col-xl-3 mb-3">
+						<div class="row">
+							<button onclick="window.location.href='Employers.html';" type="button" class="btn mr-2 float-left Form_White_Button_Styles_Try mt-2">FOR COMPANIES</button>
+						</div>
+					</div>
+					<div class="col-xl-3 mb-3">
+						<div class="row">
+							<button onclick="window.location.href='Consumers.html';" type="button" class="btn mr-2 float-left Form_White_Button_Styles_Try mt-2">FOR INDIVIDUALS</button>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+
+		<!--		Video Section-->
+		<div>
+			<div class="row justify-content-center mt-5">
+				<div class="col-md-12 mb-5 justify-content-center" >
+					<div class="row justify-content-center GRC_Main_Image">
+						<div class="embed-responsive embed-responsive-16by9">
+
+							<iframe class="embed-responsive-item" src="https://player.vimeo.com/video/441201045" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<img class="flex-grow-1 Video_Blob_Fluid" src="../images/Employers/ID4.png" srcset="../images/Employers/ID4.png 1x, ../images/Employers/ID4@2x.png 2x">
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+
+		<!--		4 picture row Section - Posture Impacts How You-->
+		<div class="row justify-content-center GRC_Main_Image2">
+			<div class="col">
+				<div class="row mt-5">
+					<div class="col-lg-12">
+						<div class="Card_Scroll_Title_Fluid_Download">
+							<span>Posture Impacts How You</span>
+						</div>
+					</div>
+				</div>
+				<div class="row mt-2 justify-content-center mb-5">
+					<div class="col-xs-12">
+						<div class="Card_Scroll_Blue_Rect_Fluid_Download"></div>
+					</div>
+				</div>
+
+
+				<div class="row justify-content-center">
+					<div class="col-lg-3 GRC_4_Image_Padding">
+							<img class="img-fluid" src="../images/Home/Surface_cf.png"
+								 srcset="../images/Home/Surface_cf.png 1x, ../images/Home/Surface_cf@2x.png 2x">
+						<div class="row Impacts_Title mt-3">
+							<span>Feel</span>
+						</div>
+						<div class="row Impacts_Subtitle">
+							<span>Say bye to back, neck, shoulder, and wrist pain and hello to a more active, relaxed, and energized you.</span>
+						</div>
+					</div>
+					<div class="col-lg-3 GRC_4_Image_Padding">
+							<img class="img-fluid" src="../images/Home/Surface_ca.png"
+								 srcset="../images/Home/Surface_ca.png 1x, ../images/Home/Surface_ca@2x.png 2x">
+						<div class="row Impacts_Title mt-3">
+							<span>Think</span>
+						</div>
+						<div class="row Impacts_Subtitle">
+							<span>Boost productivity and creativity, stay focused longer.</span>
+						</div>
+					</div>
+					<div class="col-lg-3 GRC_4_Image_Padding">
+							<img class="img-fluid" src="../images/Home/Surface_b.png"
+								 srcset="../images/Home/Surface_b.png 1x, ../images/Home/Surface_b@2x.png 2x">
+						<div class="row Impacts_Title mt-3">
+							<span>Look</span>
+						</div>
+						<div class="row Impacts_Subtitle">
+							<span>Appear inches taller, up to ten pounds lighter, slim and fit.</span>
+						</div>
+					</div>
+					<div class="col-lg-3 GRC_4_Image_Padding">
+							<img class=" img-fluid" src="../images/Home/Surface.png"
+								 srcset="../images/Home/Surface.png 1x, ../images/Home/Surface@2x.png 2x">
+						<div class="row Impacts_Title mt-3">
+							<span>Act</span>
+						</div>
+						<div class="row Impacts_Subtitle">
+							<span>More confident and aware, ready to take on the world.</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+		<!--		BLOB-->
+		<div class="row">
+		<div class="col-sm-12">
+			<div class="Blob4_Fluid_OuterOuter float-right" >
+				<div class="row float-right Blob4_Fluid_Outer">
+
+					<img class="Blob4_Fluid" src="../images/Home/ID4_e.png"
+						 srcset="../images/Home/ID4_e.png 1x, ../images/Home/ID4_e@2x.png 2x">
+				</div>
+			</div>
+		</div>
+	</div>
+
+		<!--		Dual Main Image Section-->
+		<div class="row mt-5">
+			<div class="col-lg-6 Dual_Main_Card1 pb-5">
+					<div class="mt-5 mb-5 pb-5 Dual_Main_Text_Container">
+						<div class="row GRC_Main_Image"></div>
+						<div class="row GRC_Main_Image"></div>
+						<div class="row GRC_Main_Image"></div>
+
+						<div class="row">
+							<div class="Bottom_Dual_Panel_Demo_Download_Prompt_Single_Panel_Heading_Fluid	">
+								<span>Employers</span>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="Bottom_Dual_Panel_Demo_Download_Prompt_Single_Panel_Text_Fluid">
+							<span>It is now more important than ever for you to support ergonomic good health. Learn more about how we are helping companies transition to working from home.</span>
+							</div>
+						</div>
+
+						<div class="row mt-5">
+							<div class="row justify-content-end mr-2">
+								<button onclick="window.location.href='Demo_Request_Form.html';" type="button" class="btn px-4 float-left Form_Blue_Button_Styles_Try ml-3 mt-2">REQUEST A DEMO</button>
+							</div>
+						</div>
+					</div>
+			</div>
+			<div class="col-lg-6 Dual_Main_Card2 pb-5">
+				<div class="mt-5 mb-5 pb-5 Dual_Main_Text_Container">
+					<div class="row GRC_Main_Image"></div>
+					<div class="row GRC_Main_Image"></div>
+					<div class="row GRC_Main_Image"></div>
+
+					<div class="row">
+						<div class="Bottom_Dual_Panel_Demo_Download_Prompt_Single_Panel_Heading_Fluid	">
+							<span>Individuals</span>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="Bottom_Dual_Panel_Demo_Download_Prompt_Single_Panel_Text_Fluid">
+							<span>We are here for you as you Work From Home. We are offering our usual</span><br><span>subscription-basedsolution to you for a limited time.</span>
+						</div>
+					</div>
+
+					<div class="row mt-5">
+						<div class="row justify-content-end mr-2">
+							<button onclick="window.location.href='Download___Pre_Form.html';" type="button" class="btn  float-left Form_Blue_Button_Styles_Try ml-3 mt-2">REQUEST DOWNLOAD</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!--	Bottom Section Fluid-->
+	<div style="margin-top: 100px;">
+		<div class="row float-right">
+			<img data-type="Rectangle" class="Bottom_Logo_Orange_Class_Fluid float-right" src="../images/Home/ID12.png"
+				 srcset="../images/Home/ID12.png 1x, ../images/Home/ID12@2x.png 2x">
+		</div>
+
+		<div class="row GRC_Main_Image"></div>
+		<div class="row GRC_Main_Image"></div>
+		<div class="row GRC_Main_Image"></div>
+
+
+		<div class="row Bottom_Section_Columns">
+			<div class="col-lg-4 float-left mb-5">
+				<div class="mt-4 Bottom_Menu_Column">
+					<img class="img-fluid-custom-bottom" src="../images/Clean/Global/PostureHealthLogo.png">
+				</div>
+			</div>
+			<div class="col-lg-2 justify-content-center">
+				<div data-type="Group" data-name="About PostureHealth Menu" class="Bottom_Menu_Column">
+					<div data-type="Text" data-name="Menu" class="Bottom_Menu_Title">
+						<p>About PostureHealth</p>
+					</div>
+					<div data-type="Text" class="Bottom_Menu_Item">
+						<a href="AboutUs.html">Team</a>
+					</div>
+					<div data-type="Text" class="Bottom_Menu_Item">
+						<a href="Careers.html">Careers</a>
+					</div>
+					<div data-type="Text" class="Bottom_Menu_Item">
+						<a href="Partners.html">Partners</a>
+					</div>
+					<div data-type="Text" class="Bottom_Menu_Item">
+						<a href="Consumers.html">Contact</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-2 justify-content-center">
+				<div data-type="Group" data-name="Solutions Menu" class="Bottom_Menu_Column">
+					<div data-type="Text" data-name="Menu" class="Bottom_Menu_Title">
+						<p>Solutions</p>
+					</div>
+					<div data-type="Text" class="Bottom_Menu_Item">
+						<a href="Employers.html">For Companies</a>
+					</div>
+					<div data-type="Text" class="Bottom_Menu_Item">
+						<a href="Consumers.html">For Consumers</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-2 justify-content-center">
+				<div data-type="Group" data-name="Legal Menu" class="Bottom_Menu_Column">
+					<div data-type="Text" data-name="Menu" class="Bottom_Menu_Title">
+						<p>Legal</p>
+					</div>
+					<div data-type="Text" class="Bottom_Menu_Item">
+						<a href="">Privacy Policy</a>
+					</div>
+					<div data-type="Text" class="Bottom_Menu_Item">
+						<a href="">Terms & Conditions</a>
+					</div>
+					<div data-type="Text" class="Bottom_Menu_Item">
+						<a href="">Cookie Settings</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-2 justify-content-center">
+				<div data-type="Group" data-name="Social Media Menu" class="Bottom_Menu_Column">
+					<div data-type="Text" data-name="Menu" class="Bottom_Menu_Title">
+						<p>Social Media</p>
+					</div>
+					<div data-type="Text" class="Bottom_Menu_Item">
+						<a href="https://www.linkedin.com/company/posturehealth/"
+						   class="Footer_Menu_Title">LinkedIn</a>
+					</div>
+					<div data-type="Text" class="Bottom_Menu_Item">
+						<a href="https://twitter.com/posture_health" class="Bottom_Menu_Item">Twitter</a>
+					</div>
+					<div data-type="Text" class="Bottom_Menu_Item">
+						<a href="https://www.facebook.com/Posture-Health-105194980849705/"
+						   class="Footer_Menu_Title">Facebook</a>
+					</div>
+					<div data-type="Text" class="Bottom_Menu_Item">
+						<a href="https://www.instagram.com/posture.health/"
+						   class="Bottom_Menu_Item">Instagram</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="row justify-content-center">
+			<div class="BottomRectangleFluid img-fluid"></div>
+		</div>
+		<div class="row float-left">
+			<img data-type="Rectangle" class="Bottom_Logo_Orange_Class_Fluid" src="../images/Clean/Global/BottomSectionBlueBlob.png"
+				 srcset="../images/Clean/Global/BottomSectionBlueBlob.png 1x, ../images/Clean/Global/BottomSectionBlueBlob@2x.png 2x">
+		</div>
+
+		<div class="row justify-content-end">
+			<div class="col">
+				<div data-type="Text" class="Footer_Address_Fluid float-right justify-content-end">
+					<p>
+						</br>149 New Montgomery Street,</br>San Francisco, CA 94105<br/>© 2020 PostureHealth<br/>All
+						Rights Reserved.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--	Bottom Section Fluid-->
+	<!--	TODO Fix this grid layout. It's annoying me how badly it's coded now that I know how to use bootstrap properly-->
+
+
+
+
+
+</div>
+
+
+</body>
+</html>

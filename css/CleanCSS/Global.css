@@ -1,0 +1,3049 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700;800&display=swap');
+
+
+
+a {
+    color: inherit;
+    text-decoration: none; /* no underline */
+}
+
+html,body{
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins';
+}
+
+
+
+/*
+    Global Logo
+*/
+
+.Global_Logo_Base {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    left: 117px;
+    top: 35px;
+    overflow: visible;
+
+}
+.Global_Bottom_Menu_Logo_Container {
+    position: absolute;
+    max-width: 302px;
+    max-height: 48px;
+
+    margin-top: -18px;
+    margin-left: 30px;
+}
+.Global_Logo_Image {
+    position: relative;
+    width: 28px;
+    height: 28px;
+    left: 26px;
+    top: 20px;
+    overflow: visible;
+}
+.Global_Logo_Text {
+    /*left: 90px;*/
+    /*top: 15px;*/
+    position: absolute;
+    overflow: visible;
+    width: 302px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 41px;
+    color: rgba(40,168,223,1);
+}
+
+.Global_Logo_Large_Image {
+    /*position: relative;*/
+
+    /*width: 30px;*/
+    /*height: 30px;*/
+    /*top: 26px;*/
+    /*left: -336px;*/
+    /*overflow: visible;*/
+    margin-left: 400px;
+    margin-right: 400px;
+}
+/*.Global_Logo_Large_Text {*/
+/*    white-space: nowrap;*/
+/*    text-align: left;*/
+/*    font-family: Poppins;*/
+/*    font-style: normal;*/
+/*    font-weight: bold;*/
+/*    font-size: 70px;*/
+/*    color: rgba(40,168,223,1);*/
+/*}*/
+.Global_Logo_Large_Text {
+    white-space: nowrap;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    color: rgba(40,168,223,1);
+}
+
+
+.Global_Logo_Bottom_Section {
+    top: 15px;
+    left: 90px;
+}
+.Global_Logo_Smart_Toolbar {
+    left: 49px;
+    top: 37px;
+}
+
+
+/*
+    Global Toolbar
+*/
+
+#Toolbar {
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+ul.Toolbar_Button_List {
+    top: 47px;
+    display: flex;
+    align-items: stretch; /* Default */
+    justify-content: space-between;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+.Toolbar_Button {
+    top: 47px;
+    /*position: absolute;*/
+    overflow: hidden;
+    width: 100px;
+    height: 19.616531372070312px;
+    line-height: 24px;
+    margin-top: -3.9178333282470703px;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.16433334350586px;
+    color: rgba(0,0,0,0.871);
+    letter-spacing: 0.09279690742492676px;
+
+    float: right;
+    position:relative;
+
+
+    display: block;
+    flex: 0 1 auto; /* Default */
+    list-style-type: none;
+}
+.Toolbar_Home_Button {
+    /*left: 687px;*/
+}
+.Toolbar_For_Companies_Button {
+    /*left: 789px;*/
+}
+.Toolbar_For_Consumers_Button {
+    /*left: 891px;*/
+}
+.Toolbar_About_Us_Button {
+    /*left: 993px;*/
+}
+.Toolbar_Resources_Button {
+    /*left: 1095px;*/
+}
+.Toolbar_FAQ_Button {
+    /*left: 1197px;*/
+}
+.Toolbar_Contacts_Button {
+    /*left: 1299px;*/
+}
+
+/*
+    Toolbar hover rectangle
+*/
+.Toolbar_Hover_Rectangle_Base {
+    position: absolute;
+    width: 200px;
+    height: 10px;
+    /*left: 993px;*/
+    top: 78px;
+    overflow: visible;
+
+    display: none;
+    visibility: hidden;
+}
+.Toolbar_Hover_Rectangle {
+    position: absolute;
+    overflow: visible;
+    width: 200px;
+    height: 10px;
+    /*left: 0px;*/
+    top: 0px;
+}
+.Toolbar_Hover_Rectangle_Class {
+    fill: rgba(0,161,241,1);
+    width: 50%;
+    height: 1px;
+
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    outerWidth: 100%;
+}
+
+
+.Toolbar_Button_List div:hover .Toolbar_Hover_Rectangle_Base {
+    display: block;
+    visibility: visible;
+}
+
+.Toolbar_Button_List div[id^='TToolbar_Button']:hover .Toolbar_Hover_Rectangle_Base {
+    display: block;
+    visibility: visible;
+}
+
+/*
+    Toolbar Hover About Us Dropdown Menu
+*/
+.Toolbar_Dropdown_Menu_List {
+    position: relative;
+    display: inline-block;
+
+    align-items: stretch; /* Default */
+    justify-content: space-between;
+    width: 150px;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+.Toolbar_Dropdown_Menu_Base {
+    position: absolute;
+    width: 150px;
+    height: 133px;
+    left: 1100px;
+    top: 89px;
+    overflow: visible;
+
+
+    /*display: block;*/
+    /*visibility: visible;*/
+    /*display: none;*/
+    /*visibility: hidden;*/
+}
+.Toolbar_Dropdown_Menu_Class {
+    position: absolute;
+    height: 133px;
+    left: 0px;
+    top: 0px;
+    width: 150px;
+    overflow: visible;
+}
+.Toolbar_Dropdown_Menu_Rectangle_Base {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    overflow: visible;
+    height: 151px;
+    left: 0px;
+    top: 0px;
+    width: 150px;
+}
+.Toolbar_Dropdown_Menu_Rectangle_Class {
+    fill: rgba(255,255,255,1);
+}
+
+/*
+    Improve this solution it's pretty bad i
+*/
+.Toolbar_Dropdown_Menu_Heading {
+    left: 9px;
+    top: 11px;
+    position: absolute;
+    overflow: hidden;
+    width: 150px;
+    height: 19.616531372070312px;
+    line-height: 24px;
+    margin-top: -4.5px;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(0,0,0,0.871);
+    letter-spacing: 0.09279690742492676px;
+}
+/*
+    TODO: Combine these classes a bit more... Just reused code...
+*/
+.Toolbar_Dropdown_Menu_Sub_Heading {
+    left: 9px;
+    top: 20px;
+    position: relative;
+    overflow: visible;
+    width: 150px;
+    height: 19.616531372070312px;
+    line-height: 24px;
+    margin-top: -7px;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    color: rgba(0,161,241,1);
+    letter-spacing: 0.09279690742492676px;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.Toolbar_Button_List #Toolbar_Button_About_Us:hover {
+    height: 100px; /*height dependent on the gap you want to fill*/
+}
+
+.Toolbar_Button_List div[id^='Toolbar_Button_About_Us']:hover ~ .Toolbar_Dropdown_Menu_Base {
+    display: block !important;
+    visibility: visible !important;
+}
+.Toolbar_Button_List div[id^='Toolbar_Dropdown_Menu_Base']:hover {
+    display: block;
+    visibility: visible;
+}
+
+
+
+/*
+    Buttons
+*/
+/*BASE CLASSES FOR BUTTONS*** Please make all other buttons use too*/
+.Blue_Button_Base {
+    position: absolute;
+    overflow: visible;
+    width: 243px;
+    height: 60px;
+}
+.Blue_Button_Rect {
+    position: absolute;
+    overflow: visible;
+    width: 243px;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+}
+.Blue_Button_Text {
+    position: absolute;
+    width: 243px;
+    height: 25px;
+    left: 0px;
+    top: 15px;
+    overflow: visible;
+}
+.Blue_Button_Rect_Styles {
+    fill: rgba(0,161,241,1);
+}
+.Blue_Button_Text_Styles {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: hidden;
+    width: 243px;
+    height: 25px;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(255,255,255,1);
+    letter-spacing: 0.9278056335449218px;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+.Blue_Button_Request_Demo {
+    left: 173px;
+    top: 480px;
+}
+.Blue_Button_Rect_Request_Demo {
+    position: absolute;
+    overflow: visible;
+    width: 243px;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+}
+.Blue_Button_Text_Request_Demo {
+    position: absolute;
+    width: 243px;
+    height: 25px;
+    left: 0px;
+    top: 15px;
+    overflow: visible;
+}
+
+.Blue_Button_Request_Download {
+    left: 173px;
+    top: 480px;
+}
+.Blue_Button_Rect_Request_Download {
+    position: absolute;
+    overflow: visible;
+    width: 243px;
+    height: 60px;
+}
+.Blue_Button_Text_Request_Download {
+    position: absolute;
+    width: 243px;
+    height: 25px;
+    left: 0px;
+    top: 15px;
+    overflow: visible;
+}
+
+.Blue_Button_For_Consumers {
+    left: 743px;
+    top: 754px;
+}
+.Blue_Button_Rect_For_Consumers {
+    position: absolute;
+    overflow: visible;
+    width: 243px;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+}
+.Blue_Button_Text_For_Consumers {
+    position: absolute;
+    width: 243px;
+    height: 25px;
+    left: 0px;
+    top: 15px;
+    overflow: visible;
+}
+
+
+.Blue_Button_Rect_Styles {
+    fill: rgba(0,161,241,1);
+}
+.Blue_Button_Text_Styles {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: hidden;
+    width: 243px;
+    height: 25px;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(255,255,255,1);
+    letter-spacing: 0.9278056335449218px;
+    text-transform: uppercase;
+}
+.White_Button_Rect_Styles {
+    fill: rgba(255,255,255,1);
+}
+.White_Button_Text_Styles {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: hidden;
+    width: 202px;
+    height: 25px;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(0,0,0,1);
+    letter-spacing: 0.9278056335449218px;
+    text-transform: uppercase;
+}
+
+
+.Blue_Button_For_Companies {
+    left: 454px;
+    top: 754px;
+}
+.Blue_Button_Rect_For_Companies {
+    position: absolute;
+    overflow: visible;
+    width: 243px;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+}
+.Blue_Button_Text_For_Companies {
+    position: absolute;
+    width: 243px;
+    height: 25px;
+    left: 0px;
+    top: 15px;
+    overflow: visible;
+}
+
+
+
+
+
+
+
+/*
+    Main Screen Image Component
+*/
+.Main_Image_Container {
+    width: 1440px;
+    height: 960px;
+    overflow: visible;
+}
+.Main_Image {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+.Main_Image_Tinted_Window_Style {
+    fill: rgba(0,0,0,0.302);
+}
+.Main_Image_Tinted_Window {
+    position: absolute;
+    width: 1440px;
+    height: 960px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+.Main_Image_Text_Row_1 {
+    position: absolute;
+    overflow: visible;
+    width: 1440px;
+    height: 86px;
+    top: 421px;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    color: rgba(255,255,255,1);
+    letter-spacing: 0.3px;
+}
+.Main_Image_Text_Row_2 {
+    left: 120px;
+    top: 507px;
+    position: relative;
+    overflow: visible;
+    width: 1200px;
+    height: 122px;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    color: rgba(255,255,255,1);
+}
+.Main_Image_Blue_Button_For_Companies {
+    left: 454px;
+    top: 654px;
+}
+.Main_Image_Blue_Button_For_Consumers {
+    left: 743px;
+    top: 654px;
+}
+.Main_Image_Blue_Button_Single_Centre {
+    left: 600px;
+    top: 654px;
+}
+.Main_Image_Arrow_Container {
+    /*transform: matrix(1,0,0,1,675,935);*/
+    /*transform-origin: center;*/
+    position: absolute;
+    width: 49.41px;
+    height: 80px;
+    left: 675px;
+    top: 835px;
+    overflow: visible;
+
+    transition: all 0.2s ease-in-out; /*transition: property duration timing-function delay;*/
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+}
+.Main_Image_Arrow_Container:hover {
+    transform: matrix(1,0,0,1,0,5);
+    transform-origin: center;
+}
+.Main_Image_Arrow_Style {
+    position: absolute;
+    width: 80px;
+    height: 49.41px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+.Main_Image_Home {
+    position: absolute;
+    left: 0px;
+    top: 100px;
+}
+.Main_Image_Employers {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+
+
+/*
+    Featured In Component
+*/
+.Featured_In_Home {
+    position: absolute;
+    left: 0px;
+    top: 1201px;
+    overflow: visible;
+}
+
+.To_Be_Featured_In_Text_Style {
+    /*left: 156px;*/
+    /*top: 1201px;*/
+    top: 50px;
+    position: absolute;
+    /*overflow: hidden;*/
+    width: 415px;
+    height: 57px;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    color: rgba(168,168,168,1);
+}
+
+.Wall_Street_Journal_Logo {
+    /*position: absolute;*/
+    width: 127px;
+    height: 80px;
+    /*left: 604px;*/
+    /*top: 1190px;*/
+    overflow: visible;
+}
+.Tech_Crunch_Logo {
+    /*position: absolute;*/
+    width: 170px;
+    height: 40px;
+    /*left: 749px;*/
+    /*top: 1141px;*/
+    overflow: visible;
+}
+.Forbes_Logo {
+    /*position: absolute;*/
+    width: 143px;
+    height: 37px;
+    /*left: 930px;*/
+    /*top: 1208px;*/
+    overflow: visible;
+}
+.Buzz_Feed_Logo {
+    /*position: absolute;*/
+    width: 191px;
+    height: 35px;
+    /*left: 1073px;*/
+    /*top: 1175px;*/
+    overflow: visible;
+}
+.EHS_Logo {
+    /*position: absolute;*/
+    width: 150px;
+    height: 30px;
+    /*left: 604px;*/
+    /*top: 1190px;*/
+    overflow: visible;
+}
+.HFES_Logo {
+    /*position: absolute;*/
+    width: 250px;
+    height: 60px;
+    /*padding-right: 50px;*/
+    /*left: 749px;*/
+    /*top: 1141px;*/
+    overflow: visible;
+}
+.HRE_Logo {
+    /*position: absolute;*/
+    width: 200px;
+    height: 50px;
+    /*left: 930px;*/
+    /*top: 1208px;*/
+    /*padding-left: 100px;*/
+    overflow: visible;
+}
+
+
+
+
+
+/*
+    In Summary
+*/
+
+
+
+.In_Summary_Container {
+    position: absolute;
+    width: 1440px;
+    height: 1000px;
+    left:0px;
+    overflow: visible;
+}
+.In_Summary_Home {
+    top: 4859px;
+}
+.In_Summary_Employers_1 {
+    top: 6137px;
+}
+.In_Summary_Employers_2 {
+    top: 12390px;
+}
+
+.In_Summary_Blob {
+    position: absolute;
+    width: 380.301px;
+    height: 378.643px;
+    left: 789.35px;
+    /*top: 4730.679px;*/
+    overflow: visible;
+    /*padding-top: -100px;*/
+    margin-top: -150px;
+}
+.In_Summary_Rectangle_Container {
+    position: absolute;
+    width: 1440px;
+    height: 400px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+.In_Summary_Rectangle_Style {
+    fill: rgba(25,192,247,1);
+}
+.In_Summary_Rectangle {
+    position: absolute;
+    overflow: visible;
+    width: 1440px;
+    height: 400px;
+    left: 0px;
+    top: 0px;
+}
+.In_Summary_Text {
+    left: 154px;
+    top: 110px;
+    position: absolute;
+    overflow: visible;
+    width: 1135px;
+    height: 140px;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    color: rgba(255,255,255,1);
+}
+
+.In_Summary_Title {
+    left: 159px;
+    top: 73px;
+    position: absolute;
+    overflow: visible;
+    width: 721px;
+    height: 75px;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(255,255,255,1);
+}
+
+
+.White_Button_Rect_For_Employers {
+    left: 159px;
+    top: 279px;
+}
+.White_Button_Text_For_Employers {
+    position: absolute;
+    width: 208px;
+    height: 25px;
+    left: 20px;
+    top: 18px;
+    overflow: visible;
+}
+
+.White_Button_Rect_For_Consumers {
+    left: 422px;
+    top: 279px;
+}
+.White_Button_Text_For_Consumers {
+    position: absolute;
+    width: 208px;
+    height: 25px;
+    left: 20px;
+    top: 18px;
+    overflow: visible;
+}
+
+.White_Button_Base {
+    position: absolute;
+    overflow: visible;
+    width: 243px;
+    height: 60px;
+}
+.White_Button_Rect {
+    position: absolute;
+    overflow: visible;
+    width: 243px;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+}
+.White_Button_Text {
+    position: absolute;
+    width: 243px;
+    height: 25px;
+    left: 0px;
+    top: 15px;
+    overflow: visible;
+}
+
+
+
+
+
+
+
+/*
+    Card Scroll List
+*/
+.Card_Scroll_List_Container {
+    position: absolute;
+    width: 1440px;
+    height: 880px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+.Card_Scroll_List_Container_Fluid {
+    /*position: absolute;*/
+    /*width: 1440px;*/
+    /*height: 880px;*/
+    /*overflow: visible;*/
+}
+.Test1 {
+
+}
+.Card_Scroll_List_Home {
+    left: 0px;
+    top: 6281px;
+}
+.Card_Scroll_List_Employers {
+    left: 0px;
+    top: 8709px;
+}
+.Card_Scroll_List_Consumers {
+    left: 0px;
+    top: 7927px;
+}
+
+.Card_Scroll_List_Back_Rect_Container {
+    position: absolute;
+    width: 1440px;
+    height: 880px;
+    /*left: 0px;*/
+    /*top: 6281px;*/
+    overflow: visible;
+}
+.Card_Scroll_List_Back_Rect_Style {
+    fill: rgba(245,245,245,1);
+}
+.Card_Scroll_List_Back_Rect {
+    position: absolute;
+    overflow: visible;
+    width: 1440px;
+    height: 880px;
+    left: 0px;
+    top: 0px;
+}
+.Card_Scroll_Title {
+    left: 236px;
+    /*top: 6367px;*/
+    position: absolute;
+    overflow: visible;
+    width: 939px;
+    height: 65px;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    color: rgba(0,0,0,0.871);
+
+    top: 86px;
+}
+
+.Card_Scroll_Blue_Rect {
+    position: absolute;
+    overflow: visible;
+    width: 282px;
+    height: 7px;
+    left: 579px;
+    /*top: 6432px;*/
+
+    top: 151px;
+}
+
+.Card_Scroll_Card {
+    position: absolute;
+    width: 337px;
+    height: 424px;
+    /*left: 191px;*/
+    /*top: 6542px;*/
+    overflow: visible;
+
+    left: 0px;
+    top: 261px;
+}
+.Card_Scroll_Card_Container_1 {
+    left: 191px;
+}
+.Card_Scroll_Card_Container_2 {
+    left: 549px;
+}
+.Card_Scroll_Card_Container_3 {
+    left: 908px;
+}
+
+.Card_Scroll_Arrows_Container {
+    position: absolute;
+    width: 1324px;
+    height: 40px;
+    left: 58px;
+    top: 400px;
+    overflow: visible;
+}
+
+    /*Fluid*/
+.Card_Scroll_List_Back_Rect_Container_Fluid {
+    background-color: rgba(245,245,245,1);
+}
+.Card_Scroll_List_Back_Rect_Style_Fluid {
+    fill: rgba(245,245,245,1);
+}
+.Card_Scroll_List_Back_Rect_Fluid {
+    /*position: absolute;*/
+    /*overflow: visible;*/
+    width: 100vw;
+    height: 880px;
+    /*left: 0px;*/
+    margin-top: 700px;
+    /*top: 0px;*/
+}
+
+.Card_Scroll_Title_Fluid {
+    /*left: 236px;*/
+    /*top: 6367px;*/
+    /*position: absolute;*/
+    /*overflow: visible;*/
+    /*width: 939px;*/
+
+    /*margin-left: 80px;*/
+    /*margin-top: -100px;*/
+
+    height: 65px;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    color: rgba(0,0,0,0.871);
+
+    top: 86px;
+}
+
+.Card_Scroll_Blue_Rect_Fluid {
+    /*position: absolute;*/
+    /*overflow: visible;*/
+    /*width: 282px;*/
+    height: 7px;
+    /*left: 579px;*/
+    /*top: 6432px;*/
+
+    /*top: 151px;*/
+
+    margin-left: 570px;
+    margin-top: -30px;
+}
+
+.Card_Scroll_Card_Fluid {
+    /*position: absolute;*/
+    width: 200px !important;
+    height: 500px;
+    /*left: 191px;*/
+    /*top: 6542px;*/
+    /*overflow: visible;*/
+
+    /*left: 0px;*/
+    /*top: 261px;*/
+
+    background-color: rgba(255, 255, 255, 0);
+}
+.Card_Scroll_Card_Container_1_Fluid {
+    /*left: 191px;*/
+    width: 400px;
+    min-width: 400px;
+}
+.Card_Scroll_Card_Container_2_Fluid {
+    /*left: 549px;*/
+}
+.Card_Scroll_Card_Container_3_Fluid {
+    /*left: 908px;*/
+}
+
+/*.Card_Scroll_Arrows_Container_Fluid {*/
+/*    !*position: absolute;*!*/
+/*    !*width: 1324px;*!*/
+/*    height: 40px;*/
+/*    left: 58px;*/
+/*    !*top: 400px;*!*/
+/*    !*overflow: visible;*!*/
+/*}*/
+
+
+
+
+    /*
+        Temp shitty classes to be fixed later
+    */
+.Mask_Group_33_Class {
+    position: absolute;
+    width: 337px;
+    height: 424px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+.The_first_is_a_non_t_Class {
+    left: 35px;
+    top: 39px;
+    position: absolute;
+    overflow: visible;
+    width: 268px;
+    height: 190px;
+    line-height: 35px;
+    margin-top: -5px;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    color: rgba(0,0,0,0.6);
+    letter-spacing: 0.0974195957183838px;
+}
+.__Color__Secondary__Main_Class {
+    position: absolute;
+    width: 337px;
+    height: 105px;
+    left: 0px;
+    top: 319px;
+    overflow: visible;
+}
+.Images__Avatar__Circular_Class {
+    position: absolute;
+    width: 49px;
+    height: 49px;
+    left: 35px;
+    top: 294px;
+    overflow: visible;
+}
+.Fannie_Chapman_Class {
+    left: 35px;
+    top: 352px;
+    position: absolute;
+    overflow: visible;
+    width: 172px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(255,255,255,0.871);
+    letter-spacing: 0.13036599159240722px;
+}
+.HR_Specialist_Class {
+    left: 35px;
+    top: 380px;
+    position: absolute;
+    overflow: visible;
+    width: 105px;
+    white-space: nowrap;
+    line-height: 17px;
+    margin-top: -3px;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    color: rgba(255,255,255,0.871);
+    letter-spacing: 0.1855611228942871px;
+}
+.Rectangle_13_di_Class {
+    fill: rgba(0,161,241,1);
+}
+.Rectangle_13_di {
+    position: absolute;
+    overflow: visible;
+    width: 337px;
+    height: 105px;
+    left: 0px;
+    top: 0px;
+}
+
+.Mask_Group_33_dt_Class {
+    position: absolute;
+    width: 337px;
+    height: 424px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+.The_first_is_a_non_t_du_Class {
+    left: 35px;
+    top: 39px;
+    position: absolute;
+    overflow: hidden;
+    width: 268px;
+    height: 210px;
+    line-height: 35px;
+    margin-top: -5px;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    color: rgba(0,0,0,0.6);
+    letter-spacing: 0.0974195957183838px;
+}
+.__Color__Secondary__Main_dv_Class {
+    position: absolute;
+    width: 338px;
+    height: 105px;
+    left: 0px;
+    top: 319px;
+    overflow: visible;
+}
+.Rectangle_13_dx {
+    position: absolute;
+    overflow: visible;
+    width: 337px;
+    height: 105px;
+    left: 0px;
+    top: 0px;
+}
+.Rectangle_13_dx_Class {
+    fill: rgba(0,161,241,1);
+}
+.Images__Avatar__Circular_dy_Class {
+    position: absolute;
+    width: 50px;
+    height: 49px;
+    left: 35px;
+    top: 294px;
+    overflow: visible;
+}
+._Avatar_Image_d_Class {
+    position: absolute;
+    width: 49px;
+    height: 49px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+.Scott_Sims_Class {
+    left: 35px;
+    top: 352px;
+    position: absolute;
+    overflow: visible;
+    width: 178px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(255,255,255,0.871);
+    letter-spacing: 0.13036599159240722px;
+}
+.Food_Scientist_Class {
+    left: 35px;
+    top: 380px;
+    position: absolute;
+    overflow: visible;
+    width: 67px;
+    white-space: nowrap;
+    line-height: 17px;
+    margin-top: -3px;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    color: rgba(255,255,255,0.871);
+    letter-spacing: 0.1855611228942871px;
+}
+
+.Mask_Group_33_d_Class {
+    position: absolute;
+    width: 337px;
+    height: 424px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+.The_first_is_a_non_t_d_Class {
+    left: 35px;
+    top: 39px;
+    position: absolute;
+    overflow: hidden;
+    width: 268px;
+    height: 250px;
+    line-height: 35px;
+    margin-top: -5px;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    color: rgba(0,0,0,0.6);
+    letter-spacing: 0.0974195957183838px;
+}
+.__Color__Secondary__Main_ea_Class {
+    position: absolute;
+    width: 337px;
+    height: 105px;
+    left: 0px;
+    top: 319px;
+    overflow: visible;
+}
+.Rectangle_13_ec_Class {
+    fill: rgba(0,161,241,1);
+}
+.Rectangle_13_ec {
+    position: absolute;
+    overflow: visible;
+    width: 337px;
+    height: 105px;
+    left: 0px;
+    top: 0px;
+}
+.Images__Avatar__Circular_ed_Class {
+    position: absolute;
+    width: 49px;
+    height: 49px;
+    left: 35px;
+    top: 294px;
+    overflow: visible;
+}
+._Avatar_Image_ef_Class {
+    position: absolute;
+    width: 49px;
+    height: 49px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+.Edward_Stone_Class {
+    left: 34px;
+    top: 355px;
+    position: absolute;
+    overflow: visible;
+    width: 282px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: rgba(255,255,255,0.871);
+    letter-spacing: 0.13036599159240722px;
+}
+.Medical_Secretary_Class {
+    left: 35px;
+    top: 380px;
+    position: absolute;
+    overflow: visible;
+    width: 65px;
+    white-space: nowrap;
+    line-height: 17px;
+    margin-top: -3px;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    color: rgba(255,255,255,1);
+    letter-spacing: 0.1855611228942871px;
+}
+
+.right_Class {
+    position: absolute;
+    width: 31px;
+    height: 40px;
+    left: 1293px;
+    top: 0px;
+    overflow: visible;
+}
+.Path {
+    overflow: visible;
+    position: absolute;
+    width: 20.5px;
+    height: 41px;
+    /*left: 11px;*/
+    /*top: 0px;*/
+    /*transform: matrix(1,0,0,1,0,0);*/
+}
+.Path_Class {
+    fill: transparent;
+    stroke: rgba(151,151,151,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 10;
+    shape-rendering: auto;
+}
+.long_arrow_left_Class {
+    position: absolute;
+    width: 22px;
+    height: 8px;
+    /*left: 0px;*/
+    /*top: 16px;*/
+    overflow: visible;
+}
+.Path_fr {
+    overflow: visible;
+    position: absolute;
+    width: 22px;
+    height: 8px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+.Path_fr_Class {
+    fill: rgba(3,218,196,1);
+}
+.Group_647_Class {
+    transform: translate(-58px, -6072px) matrix(1,0,0,1,58,6072) rotate(180deg);
+    transform-origin: center;
+    position: absolute;
+    width: 31px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+.right_ft_Class {
+    position: absolute;
+    width: 31px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+.Path_fu {
+    overflow: visible;
+    position: absolute;
+    width: 20.5px;
+    height: 41px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+.Path_fu_Class {
+    fill: transparent;
+    stroke: rgba(151,151,151,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 10;
+    shape-rendering: auto;
+}
+.long_arrow_left_fv_Class {
+    position: absolute;
+    width: 22px;
+    height: 8px;
+    left: 9px;
+    top: 16px;
+    overflow: visible;
+}
+.Path_fw {
+    overflow: visible;
+    position: absolute;
+    width: 22px;
+    height: 8px;
+    left: -20px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+.Path_fw_Class {
+    fill: rgba(3,218,196,1);
+}
+
+
+
+
+
+
+
+    /*
+        General Shapes
+    */
+.Blue_Rect_Small_Style {
+    fill: rgba(0,161,241,1);
+    stroke: rgba(112, 112, 112, 0);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+<!--    Posture Impacts How You... 4 Column Section -->
+Please forgive these classes are exported ones I didn't get time to rename and remake. Will do later
+TEMPORARY
+*/
+.Impact_Container {
+    position: absolute;
+    overflow: visible;
+    width: 1440px;
+    height: 500px;
+    left: 0px;
+    top: 0px;
+}
+.Impact_Home {
+    top: 8820px;
+}
+.Impact_Employers {
+    top: 10498px;
+}
+.Impact_Consumers {
+    top: 6300px;
+}
+
+.Impacts_Heading {
+    left: 433.5px;
+    top: 0px;
+    position: relative;
+    overflow: visible;
+    width: 591px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    color: rgba(0,0,0,0.871);
+    letter-spacing: 0.0764075231552124px;
+}
+.Blue_Rect_Small_5 {
+    position: absolute;
+    overflow: visible;
+    width: 282px;
+    height: 7px;
+    left: 579px;
+    top: 72px;
+}
+.Group_659_Class {
+    position: absolute;
+    width: 1108px;
+    height: 450px;
+    left: 166px;
+    top: 152px;
+    overflow: visible;
+}
+.item_Class {
+    position: absolute;
+    width: 259px;
+    height: 410px;
+    left: 849px;
+    top: 0px;
+    overflow: visible;
+}
+.Surface_Class_Impact_4 {
+    position: absolute;
+    width: 259px;
+    height: 246px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+.Ignoring_a_WhatsApp_Class {
+    left: 0px;
+    top: 263px;
+    position: absolute;
+    overflow: hidden;
+    width: 260px;
+    height: 50px;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    color: rgba(0,0,0,0.871);
+    letter-spacing: 0.13036599159240722px;
+}
+.The_process_of_philo_Class {
+    left: 0px;
+    top: 313px;
+    position: absolute;
+    overflow: visible;
+    width: 260px;
+    height: 97px;
+    line-height: 30px;
+    margin-top: -2.5px;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    color: rgba(0,0,0,0.6);
+    letter-spacing: 0.0974195957183838px;
+}
+.Group_621_Class {
+    position: absolute;
+    width: 257px;
+    height: 246px;
+    left: 567px;
+    top: 0px;
+    overflow: visible;
+}
+.Surface_b_Class {
+    position: absolute;
+    width: 257px;
+    height: 246px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+.Ignoring_a_WhatsApp_b_Class {
+    left: 0px;
+    top: 263px;
+    position: absolute;
+    overflow: hidden;
+    width: 260px;
+    height: 50px;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    color: rgba(0,0,0,0.871);
+    letter-spacing: 0.13036599159240722px;
+}
+.The_process_of_philo_b_Class {
+    left: 0px;
+    top: 312px;
+    position: absolute;
+    overflow: hidden;
+    width: 260px;
+    height: 97px;
+    line-height: 30px;
+    margin-top: -2.5px;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    color: rgba(0,0,0,0.6);
+    letter-spacing: 0.0974195957183838px;
+}
+.item_b_Class {
+    position: absolute;
+    width: 259px;
+    height: 441px;
+    left: 283px;
+    top: 0px;
+    overflow: visible;
+}
+.Surface_ca_Class {
+    position: absolute;
+    width: 258px;
+    height: 246px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+.Ignoring_a_WhatsApp_ca_Class {
+    left: 0px;
+    top: 263px;
+    position: absolute;
+    overflow: hidden;
+    width: 260px;
+    height: 50px;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    color: rgba(0,0,0,0.871);
+    letter-spacing: 0.13036599159240722px;
+}
+.The_process_of_philo_cb_Class {
+    left: 0px;
+    top: 308px;
+    position: absolute;
+    overflow: visible;
+    width: 260px;
+    height: 133px;
+    line-height: 30px;
+    margin-top: -2.5px;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    color: rgba(0,0,0,0.6);
+    letter-spacing: 0.0974195957183838px;
+}
+.item_cc_Class {
+    position: absolute;
+    width: 259px;
+    height: 450px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+.Surface_cf_Class {
+    position: absolute;
+    width: 259px;
+    height: 246px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+.Ignoring_a_WhatsApp_ch_Class {
+    left: 0px;
+    top: 263px;
+    position: absolute;
+    overflow: hidden;
+    width: 260px;
+    height: 50px;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    color: rgba(0,0,0,0.871);
+    letter-spacing: 0.13036599159240722px;
+}
+.The_process_of_philo_ci_Class {
+    left: 0px;
+    top: 312px;
+    position: absolute;
+    overflow: hidden;
+    width: 260px;
+    height: 180px;
+    line-height: 30px;
+    margin-top: -2.5px;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    color: rgba(0,0,0,0.6);
+    letter-spacing: 0.0974195957183838px;
+}
+
+
+/*
+    Red Circle shared between Home and Consumers
+    TODO: Actually give these styling classes meaningful names and clean up to code to use bootstrap etc...
+*/
+.Pricing_Options_cu_Class {
+    left: 287.5px;
+    top: 5385px;
+    position: absolute;
+    overflow: visible;
+    width: 845px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    color: rgba(0,0,0,0.871);
+    letter-spacing: 0.0764075231552124px;
+}
+.Blue_Rect_Small_2 {
+    position: absolute;
+    overflow: visible;
+    width: 282px;
+    height: 7px;
+    left: 579px;
+    top: 5467px;
+}
+.Component_35__1_Class {
+    position: absolute;
+    width: 1120px;
+    height: 623px;
+    left: 160px;
+    top: 5560px;
+    overflow: visible;
+}
+.Money_Back_Guarantee_Class {
+    left: 0px;
+    top: 428px;
+    position: absolute;
+    overflow: visible;
+    width: 283px;
+    height: 126px;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    color: rgba(0,0,0,0.38);
+    letter-spacing: 0.13036599159240722px;
+}
+.Oval_b {
+    filter: drop-shadow(0px 2px 20px rgba(231, 76, 60, 1));
+    position: absolute;
+    overflow: visible;
+    width: 358px;
+    height: 358px;
+    left: 408px;
+    top: 93px;
+}
+.Oval_b_Class {
+    fill: transparent;
+    stroke: rgba(255,255,255,1);
+    stroke-width: 8px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 10;
+    shape-rendering: auto;
+}
+.Oval_it {
+    position: absolute;
+    overflow: visible;
+    width: 298px;
+    height: 298px;
+    left: 408px;
+    top: 93px;
+}
+.Oval_it_Class {
+    fill: transparent;
+    stroke: rgba(231,76,60,1);
+    stroke-width: 8px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 10;
+    shape-rendering: auto;
+}
+.ID45_Class_Employers {
+    left: 646.5px;
+    top: 1701px;
+    position: absolute;
+    overflow: visible;
+    width: 115px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 93.40469360351562px;
+    color: rgba(0,0,0,0.871);
+    letter-spacing: -0.1605914878845215px;
+}
+.Money_Back_Guarantee_iv_Class {
+    left: 408px;
+    top: 428px;
+    position: absolute;
+    overflow: visible;
+    width: 283px;
+    height: 127px;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    color: rgba(0,0,0,0.38);
+    letter-spacing: 0.13036599159240722px;
+}
+.Oval_b_iw {
+    filter: drop-shadow(0px 2px 20px rgba(231, 76, 60, 1));
+    position: absolute;
+    overflow: visible;
+    width: 358px;
+    height: 358px;
+    left: 816px;
+    top: 93px;
+}
+.Oval_b_iw_Class {
+    fill: transparent;
+    stroke: rgba(255,255,255,1);
+    stroke-width: 8px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 10;
+    shape-rendering: auto;
+}
+.Oval_ix {
+    width: 282px;
+    height: 282px;
+    position: absolute;
+    overflow: visible;
+    transform: translate(0px, 0px) matrix(1,0,0,1,816,93) rotate(90deg);
+    transform-origin: center;
+}
+.Oval_ix_Class {
+    fill: transparent;
+    stroke: rgba(231,76,60,1);
+    stroke-width: 8px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-dasharray: 900;
+    stroke-dashoffset: 0;
+    stroke-miterlimit: 10;
+    shape-rendering: auto;
+}
+.ID79_Class_Employers {
+    left: 993.5px;
+    top: 1753px;
+    position: absolute;
+    overflow: visible;
+    width: 247px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 40px;
+    color: rgba(0,0,0,0.871);
+    letter-spacing: -0.1605914878845215px;
+}
+.Money_Back_Guarantee_iz_Class {
+    left: 798px;
+    top: 419px;
+    position: absolute;
+    overflow: visible;
+    width: 323px;
+    height: 145px;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    color: rgba(0,0,0,0.38);
+    letter-spacing: 0.13036599159240722px;
+}
+.Oval_b_i {
+    filter: drop-shadow(0px 2px 20px rgba(231, 76, 60, 1));
+    position: absolute;
+    overflow: visible;
+    width: 358px;
+    height: 358px;
+    left: 0px;
+    top: 93px;
+}
+.Oval_b_i_Class {
+    fill: transparent;
+    stroke: rgba(255,255,255,1);
+    stroke-width: 8px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 10;
+    shape-rendering: auto;
+}
+.ID65_Class_Home {
+    left: 82.5px;
+    top: 164px;
+    position: absolute;
+    overflow: visible;
+    width: 105px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 93.40469360351562px;
+    color: rgba(0,0,0,0.871);
+    letter-spacing: -0.1605914878845215px;
+}
+._Class_Home {
+    left: 189px;
+    top: 168px;
+    position: absolute;
+    overflow: visible;
+    width: 25px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32.71929168701172px;
+    color: rgba(0,0,0,0.871);
+    letter-spacing: 0.0764075231552124px;
+}
+.Oval_i {
+    overflow: visible;
+    position: absolute;
+    width: 282px;
+    height: 282px;
+    transform: translate(0px, 0px) matrix(1,0,0,1,0,93) rotate(90deg);
+    transform-origin: center;
+    left: 0px;
+    top: 0px;
+}
+.Oval_i_Class {
+    fill: transparent;
+    stroke: rgba(231,76,60,1);
+    stroke-width: 8px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-dasharray: 650;
+    stroke-dashoffset: 0;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Money_Back_Guarantee_js_Class {
+    left: 87px;
+    top: 289px;
+    position: absolute;
+    overflow: visible;
+    width: 96px;
+    height: 40px;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19.176780700683594px;
+    color: rgba(0,0,0,0.38);
+    letter-spacing: 0.13036599159240722px;
+}
+.Money_Back_Guarantee_jt_Class {
+    left: 473px;
+    top: 284px;
+    position: absolute;
+    overflow: visible;
+    width: 153px;
+    height: 40px;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19.176780700683594px;
+    color: rgba(0,0,0,0.38);
+    letter-spacing: 0.13036599159240722px;
+}
+.Money_Back_Guarantee_ju_Class {
+    left: 909px;
+    top: 284px;
+    position: absolute;
+    overflow: visible;
+    width: 96px;
+    height: 40px;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19.176780700683594px;
+    color: rgba(0,0,0,0.38);
+    letter-spacing: 0.13036599159240722px;
+}
+._jv_Class {
+    left: 1016px;
+    top: 154px;
+    position: absolute;
+    overflow: visible;
+    width: 25px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32.71929168701172px;
+    color: rgba(0,0,0,0.871);
+    letter-spacing: 0.0764075231552124px;
+}
+.Money_Back_Guarantee_jw_Class {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 283px;
+    height: 52px;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    color: rgba(0,0,0,1);
+    letter-spacing: 0.13036599159240722px;
+}
+.Money_Back_Guarantee_jx_Class {
+    left: 405px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 283px;
+    height: 52px;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    color: rgba(0,0,0,1);
+    letter-spacing: 0.13036599159240722px;
+}
+.Money_Back_Guarantee_jy_Class {
+    left: 810px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 283px;
+    height: 52px;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    color: rgba(0,0,0,1);
+    letter-spacing: 0.13036599159240722px;
+}
+._jz_Class {
+    left: 867px;
+    top: 212px;
+    position: absolute;
+    overflow: visible;
+    width: 23px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32.71929168701172px;
+    color: rgba(0,0,0,0.871);
+    letter-spacing: 0.0764075231552124px;
+}
+
+
+
+
+/*
+    Final Dual Panel Prompt to request demo/download
+*/
+.Bottom_Dual_Panel_Demo_Download_Prompt_Home {
+    left: 0px;
+    top: 9496.931px;
+}
+.Bottom_Dual_Panel_Demo_Download_Prompt_Consumers {
+    left: 0px;
+    top: 9581.931px;
+}
+
+.Bottom_Dual_Panel_Demo_Download_Prompt_Single_Panel_Employers {
+    left: 0px;
+    top: 123.069px;
+}
+.Bottom_Dual_Panel_Demo_Download_Prompt_Single_Panel_Individuals {
+    left: 725px;
+    top: 123.069px;
+}
+
+.Bottom_Dual_Panel_Demo_Download_Prompt {
+    position: absolute;
+    width: 1540.977px;
+    height: 843.07px;
+    overflow: visible;
+}
+.Bottom_Dual_Panel_Demo_Download_Prompt_Blob {
+    position: absolute;
+    width: 217.165px;
+    height: 246.401px;
+    left: 1323.813px;
+    top: 0px;
+    overflow: visible;
+}
+.Bottom_Dual_Panel_Demo_Download_Prompt_Single_Panel {
+    position: absolute;
+    width: 725px;
+    height: 720px;
+    overflow: visible;
+}
+.Bottom_Dual_Panel_Demo_Download_Prompt_Single_Panel_Image {
+    opacity: 0.998;
+    position: absolute;
+    width: 725px;
+    height: 720px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+.Bottom_Dual_Panel_Demo_Download_Prompt_Single_Panel_Image_Tint {
+    position: absolute;
+    overflow: visible;
+    width: 725px;
+    height: 720px;
+    left: 0px;
+    top: 0px;
+}
+.Bottom_Dual_Panel_Demo_Download_Prompt_Single_Panel_Image_Tint_Style {
+    fill: rgba(0,0,0,0.502);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Bottom_Dual_Panel_Demo_Download_Prompt_Single_Panel_Heading {
+    left: 173px;
+    top: 210.069px;
+    position: absolute;
+    overflow: visible;
+    width: 438px;
+    height: 74px;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46.19194030761719px;
+    color: rgba(255,255,255,1);
+}
+.Bottom_Dual_Panel_Demo_Download_Prompt_Single_Panel_Text {
+    left: 173px;
+    top: 311.069px;
+    position: absolute;
+    overflow: visible;
+    width: 438px;
+    height: 165px;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19.176780700683594px;
+    color: rgba(255,255,255,1);
+    letter-spacing: 0.13036599159240722px;
+}
+
+/*
+    Employers Red Circles
+    TEMP
+*/
+/*cats*/
+.Pricing_Options_Class {
+    left: 295.5px;
+    top: 1374px;
+    position: absolute;
+    overflow: visible;
+    width: 829px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    color: rgba(0,0,0,0.871);
+    letter-spacing: 0.0764075231552124px;
+}
+.Oval_b_f_Class {
+    fill: transparent;
+    stroke: rgba(255,255,255,1);
+    stroke-width: 8px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 10;
+    shape-rendering: auto;
+}
+.Oval_b_f {
+    filter: drop-shadow(0px 2px 20px rgba(231, 76, 60, 1));
+    position: absolute;
+    overflow: visible;
+    width: 358px;
+    height: 358px;
+    left: 158px;
+    top: 1640px;
+}
+.ID65_Class {
+    left: 236.5px;
+    top: 1706px;
+    position: absolute;
+    overflow: visible;
+    width: 105px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 93.40469360351562px;
+    color: rgba(0,0,0,0.871);
+    letter-spacing: -0.1605914878845215px;
+}
+._Class {
+    left: 341px;
+    top: 1702px;
+    position: absolute;
+    overflow: visible;
+    width: 25px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32.71929168701172px;
+    color: rgba(0,0,0,0.871);
+    letter-spacing: 0.0764075231552124px;
+}
+.Oval_f_Class {
+    fill: transparent;
+    stroke: rgba(231,76,60,1);
+    stroke-width: 8px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-dasharray: 650;
+    stroke-dashoffset: 0;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Oval_f {
+    overflow: visible;
+    position: absolute;
+    width: 282px;
+    height: 282px;
+    transform: matrix(1,0,0,1,158,1640) rotate(90deg);
+    transform-origin: center;
+    left: 0px;
+    top: 0px;
+}
+.Money_Back_Guarantee_ga_Class {
+    left: 241px;
+    top: 1831px;
+    position: absolute;
+    overflow: visible;
+    width: 96px;
+    height: 40px;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19.176780700683594px;
+    color: rgba(0,0,0,0.38);
+    letter-spacing: 0.13036599159240722px;
+}
+.Money_Back_Guarantee_gb_Class {
+    left: 631px;
+    top: 1822px;
+    position: absolute;
+    overflow: visible;
+    width: 153px;
+    height: 40px;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19.176780700683594px;
+    color: rgba(0,0,0,0.38);
+    letter-spacing: 0.13036599159240722px;
+}
+.Money_Back_Guarantee_gc_Class {
+    left: 1059px;
+    top: 1822px;
+    position: absolute;
+    overflow: visible;
+    width: 113px;
+    height: 40px;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19.176780700683594px;
+    color: rgba(0,0,0,0.38);
+    letter-spacing: 0.13036599159240722px;
+}
+
+
+/*
+    Consumers Red circles
+*/
+.ID65_Class_Consumers {
+    left: 82.5px;
+    top: 164px;
+    position: absolute;
+    overflow: visible;
+    width: 105px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 93.40469360351562px;
+    color: rgba(0,0,0,0.871);
+    letter-spacing: -0.1605914878845215px;
+}
+._Class_Consumers {
+    left: 189px;
+    top: 168px;
+    position: absolute;
+    overflow: visible;
+    width: 25px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32.71929168701172px;
+    color: rgba(0,0,0,0.871);
+    letter-spacing: 0.0764075231552124px;
+}
+.ID79_Class_Consumers {
+    left: 888.5px;
+    top: 164px;
+    position: absolute;
+    overflow: visible;
+    width: 135px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 93.40469360351562px;
+    color: rgba(0,0,0,0.871);
+    letter-spacing: -0.1605914878845215px;
+}
+.ID45_Class_Consumers {
+    left: 488.5px;
+    top: 154px;
+    position: absolute;
+    overflow: visible;
+    width: 115px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 93.40469360351562px;
+    color: rgba(0,0,0,0.871);
+    letter-spacing: -0.1605914878845215px;
+}
+
+
+
+/*
+    Video Component
+*/
+.Video_Container {
+    position: absolute;
+    width: 996px;
+    height: 809px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+.Video_Container_Consumers {
+    top: 7100px;
+}
+.Video_Container_Home {
+    top: 8085px;
+}
+
+.Video_Blob {
+    position: absolute;
+    max-width: 100px;
+    height: auto;
+    left: -30px;
+    top: 270px;
+    overflow: visible;
+}
+.Video_Class {
+    position: absolute;
+    width: 40vw;
+    height: 40vh;
+    /*left: 22  0px;*/
+    /*top: 0px;*/
+    object-fit: cover;
+    overflow: visible;
+}
+
+
+
+
+/*
+    Consumer Blue Rings
+*/
+.Blue_Rings_Base {
+    position: absolute;
+    width: 1130px;
+    height: 621px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+.Blue_Rings_Consumers_Base {
+    top: 8870px;
+}
+
+.Blue_Rings_Consumers_Container {
+    position: absolute;
+    width: 1130px;
+    height: 621px;
+    left: 155px;
+    overflow: visible;
+    top: 150px;
+}
+.Blue_Rings_Consumers_Rect {
+    position: absolute;
+    overflow: visible;
+    width: 282px;
+    height: 7px;
+    left: 587px;
+    top: 70px;
+}
+.Blue_Rings_Consumers_Heading {
+    left: 562.5px;
+
+    position: absolute;
+    overflow: visible;
+    width: 347px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    color: rgba(0,0,0,0.871);
+    letter-spacing: 0.0764075231552124px;
+}
+
+.Component_36__1_Class {
+    position: absolute;
+    width: 1130px;
+    height: 621px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+
+
+
+/*
+    Buttons on Forms
+*/
+.Form_White_Button_Styles {
+    background-color: rgba(255, 255, 255, 1);
+    width: 243px;
+    height: 60px;
+
+    border: none;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 1);
+    letter-spacing: 0.9278056335449218px;
+    text-transform: uppercase;
+}
+
+.Form_Blue_Button_Styles {
+    background-color: rgba(0,161,241,1);
+    width: 243px;
+    height: 60px;
+
+    border: none;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.9278056335449218px;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+/*
+    Card Fluid
+*/
+.Mask_Group_33_Class_Fluid {
+    /*position: relative;*/
+    width: 337px;
+    height: 424px;
+    /*left: 0px;*/
+    /*top: 0px;*/
+
+    /*overflow: visible;*/
+}
+.The_first_is_a_non_t_Class_Fluid {
+    left: 35px;
+    top: 39px;
+    margin-top: -400px;
+    margin-left: 35px;
+    /*position: absolute;*/
+    /*overflow: visible;*/
+    width: 268px;
+    height: 130px;
+    line-height: 35px;
+    /*margin-top: -5px;*/
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    color: rgba(0,0,0,0.6);
+    letter-spacing: 0.0974195957183838px;
+}
+.__Color__Secondary__Main_Class_Fluid {
+    /*position: absolute;*/
+    margin-top: 200px;
+    width: 337px;
+    height: 105px;
+    left: 0px;
+    top: 319px;
+    /*overflow: visible;*/
+}
+.Images__Avatar__Circular_Class_Fluid {
+    /*position: absolute;*/
+    margin-top: -130px;
+    margin-left: 30px;
+    width: 49px;
+    height: 49px;
+    left: 35px;
+    top: 294px;
+    /*overflow: visible;*/
+}
+.Fannie_Chapman_Class_Fluid {
+    margin-top: 15px;
+    margin-left: 40px;
+    /*position: absolute;*/
+    /*overflow: visible;*/
+    width: 172px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(255,255,255,0.871);
+    letter-spacing: 0.13036599159240722px;
+}
+.HR_Specialist_Class_Fluid {
+    left: 35px;
+    top: 380px;
+    margin-left: 40px;
+    /*position: absolute;*/
+    /*overflow: visible;*/
+    width: 105px;
+    white-space: nowrap;
+    line-height: 17px;
+    margin-top: -3px;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    color: rgba(255,255,255,0.871);
+    letter-spacing: 0.1855611228942871px;
+}
+.Rectangle_13_di_Class_Fluid {
+    fill: rgba(0,161,241,1);
+}
+.Rectangle_13_di_Fluid {
+    /*position: absolute;*/
+    /*overflow: visible;*/
+    width: 337px;
+    height: 105px;
+    left: 0px;
+    top: 0px;
+}
+
+
+
+
+/*
+I'm gunna be honest ,ate I dunno what this is or what it does. I think it was a general spacing fix for safari. Might not be important anymore soz xx
+*/
+.GRC_Main_Image {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+
+}
+.GRC_Main_Image_Special {
+    max-width: 400px !important;
+}
+.Download_Video_Container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 65px;
+    margin-right: 65px;
+}
+
+.GRC_Main_Image2 {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+.GRC_4_Image_Padding {
+    padding: 50px;
+}
+
+.Video_Blob_Fluid {
+    position: absolute;
+    /*width: 10vw;*/
+    /*height: 20vh;*/
+    width: 150px;
+    height: 150px;
+    /*left: 50px;*/
+    /*top: 300px;*/
+    overflow: visible;
+
+    margin-top: -200px;
+    margin-left: 20px;
+    z-index: -1;
+}
+.card {
+    /*float: left;*/
+    max-width: 33.333%;
+    padding: .75rem;
+    margin-bottom: 2rem;
+    border: 0;
+    flex-basis: 33.333%;
+    flex-grow: 0;
+    flex-shrink: 0;
+
+
+}
+.card > img {
+    margin-bottom: .75rem;
+}
+
+
+
+
+
+
+
+
+/*
+    Sexy Responsive Finesse ;)
+*/
+
+@media screen and (max-width: 1200px) {
+    .Global_Logo_Large_Image {
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .Global_Logo_Large_Image {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .Global_Logo_Large_Image {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .Global_Bottom_Menu_Logo_Container {
+        justify-content: right;
+        max-width: 200px;
+        margin-left: 0px;
+        margin-top: -12px;
+    }
+
+    .GRC_Main_Image {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .GRC_Main_Image2 {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .Download_Video_Container {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .GRC_4_Image_Padding {
+        padding: 10px;
+    }
+    .Video_Blob_Fluid {
+        width: 75px;
+        height: 75px;
+
+        margin-top: -160px;
+        margin-left: 5px;
+        z-index: -1;
+    }
+
+    .Form_White_Button_Styles {
+        width: 50vw;
+    }
+
+
+    .Mask_Group_33_Class_Fluid {
+        width: 200px;
+    }
+    .The_first_is_a_non_t_Class_Fluid {
+        width: 150px;
+        margin-left: 15px;
+        margin-right: 15px;
+        font-size: 15px;
+    }
+    .__Color__Secondary__Main_Class_Fluid {
+        width: 200px;
+
+    }
+    .Rectangle_13_di_Fluid {
+        width: 200px;
+    }
+    .Fannie_Chapman_Class_Fluid {
+        width: 50px;
+        margin-left: 15px;
+    }
+    .HR_Specialist_Class_Fluid {
+        width: 50px;
+        margin-left: 15px;
+    }
+    .Images__Avatar__Circular_Class_Fluid {
+        margin-left: 15px;
+    }
+    .card {
+        margin-right: -150px;
+    }
+}
+
+
+/*
+    scroll card list arrows
+*/
+.right_Class_Fluid {
+    position: absolute;
+    width: 31px;
+    height: 40px;
+    /*left: 1293px;*/
+    top: 0px;
+    overflow: visible;
+}
+.Path_Fluid {
+    overflow: visible;
+    /*position: absolute;*/
+    /*width: 20.5px;*/
+    height: 41px;
+    /*left: 11px;*/
+    /*top: 0px;*/
+    /*transform: matrix(1,0,0,1,0,0);*/
+    margin-right: -20px;
+}
+.long_arrow_left_Class_Fluid {
+    transition: margin-left 200ms;
+    position: absolute;
+    width: 22px;
+    height: 8px;
+    /*left: 0px;*/
+    top: 16px;
+    overflow: visible;
+    margin-left: -10px;
+}
+.Arrow_Container_Fluid {
+    margin-top: -300px; margin-bottom: 300px; margin-left: 30px; margin-right: 30px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none; /* no underline */
+}
+
+.Home_Main_Button1 {
+    /*justify-content: end;*/
+    /*float: right;*/
+}
+.Home_Main_Button2 {
+    /*justify-content: start;*/
+    /*float: left;*/
+}
+
+.Dual_Main_Text_Container {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+/* scroll cards*/
+.Card_Scroll_Title_Fluid_Download {
+
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    color: rgba(0,0,0,0.871);
+
+}
+
+.Card_Scroll_Blue_Rect_Fluid_Download {
+
+    height: 7px;
+    width: 20vw;
+    text-align: center;
+
+    background-color: rgba(0,161,241,1);
+}
+
+.row-scroll{
+    align-items: stretch;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin-left: 50px;
+    margin-right: 50px;
+    /*padding-left: 75px;*/
+    margin-top: 50px;
+    fill: rgb(245, 245, 245);
+
+
+}
+/*.card {*/
+/*    !*float: left;*!*/
+/*    max-width: 33.333%;*/
+/*    padding: .75rem;*/
+/*    margin-bottom: 2rem;*/
+/*    border: 0;*/
+/*    flex-basis: 33.333%;*/
+/*    flex-grow: 0;*/
+/*    flex-shrink: 0;*/
+/*}*/
+
+/*.card > img {*/
+/*    margin-bottom: .75rem;*/
+/*}*/
+
+.card-text {
+    font-size: 85%;
+}
+
+.no-scrollbar {
+    scrollbar-width: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+/*
+Clean Up Code (Might want to ignore some of the css stuff from about but don't delete unless oyu know it's not being used lol
+*/
+.Main_Subtitle {
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    /*font-size: 35px;*/
+    font-size: 2vw;
+    color: rgba(0,0,0,0.871);
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+
+.Main_Subtitle_Large {
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    color: rgba(0,0,0,0.871);
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+.Main_Subtitle_Large_White {
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    color: white;
+    /*margin-left: 20vw;*/
+    /*margin-right: 20vw;*/
+}
+
+
+/*Consumers Clean Up*/
+.Main_Card_Title_Text {
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    color: rgba(255,255,255,1);
+    letter-spacing: 0.3px;
+}
+.Main_Card_Subtitle_Text {
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    color: rgba(255,255,255,1);
+}
+
+.Form_Blue_Button_Styles_Try {
+    background-color: rgba(0,161,241,1);
+    width: 275px;
+    height: 60px;
+
+    border: none;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.9278056335449218px;
+    text-transform: uppercase;
+
+}
+
+.To_Be_Featured_In_Text_Style_Correct {
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    color: rgba(168,168,168,1);
+}
+
+.Form_White_Button_Styles_Try2 {
+    background-color: rgb(255, 255, 255);
+    width: 243px;
+    height: 60px;
+
+    border: none;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    letter-spacing: 0.9278056335449218px;
+    text-transform: uppercase;
+
+}
+
+.Impacts_Title {
+    text-align: left;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    color: rgba(0,0,0,0.871);
+    letter-spacing: 0.13036599159240722px;
+
+    margin-left: 1px;
+}
+
+.Impacts_Subtitle {
+    text-align: left;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    color: rgba(0,0,0,0.6);
+    letter-spacing: 0.0974195957183838px;
+
+    margin-left: 1px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+    .Main_Subtitle {
+        font-size: 3.5vw;
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+    .Main_Subtitle_Large {
+        font-size: 10vw;
+    }
+    .Main_Subtitle_Large_White {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+
+    .Main_Card_Title_Text {
+        font-size: 5vw;
+    }
+    .Main_Card_Subtitle_Text {
+        font-size: 4.5vw;
+    }
+
+    .Card_Scroll_Title_Fluid_Download {
+        font-size: 5vw;
+    }
+
+}
+
+@media screen and (max-width: 415px) {
+    .Form_White_Button_Styles_Try2 {
+        font-size: 14px;
+    }
+}

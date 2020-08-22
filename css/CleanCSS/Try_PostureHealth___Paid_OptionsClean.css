@@ -1,0 +1,176 @@
+.Title_Fluid {
+    /*top: 189px;*/
+    /*position: absolute;*/
+    overflow: visible;
+    width: 1480px;
+    height: 151px;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    color: rgba(0,0,0,1);
+    letter-spacing: 0.3px;
+}
+
+.Card_Class {
+    /*position: absolute;*/
+    /*width: 345px;*/
+    /*height: 646px;*/
+    /*left: 0px;*/
+    /*top: 0px;*/
+    /*overflow: visible;*/
+    /*background-color: #0b2e13;*/
+}
+
+.Blue_Card_Class {
+    background-color: rgba(0,161,241,1);
+}
+
+.Card_Title {
+    /*left: 46px;*/
+    /*top: 50px;*/
+    /*position: absolute;*/
+    /*overflow: visible;*/
+    /*width: 127px;*/
+    white-space: nowrap;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    color: rgba(0,0,0,0.871);
+    letter-spacing: 0.0764075231552124px;
+}
+.Card_Title_White {
+    /*left: 46px;*/
+    /*top: 50px;*/
+    /*position: absolute;*/
+    /*overflow: visible;*/
+    /*width: 127px;*/
+    white-space: nowrap;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.0764075231552124px;
+}
+
+.Card_Small_Text {
+    /*left: 46px;*/
+    /*top: 561px;*/
+    /*position: absolute;*/
+    overflow: visible;
+    /*width: 254px;*/
+    /*height: 43px;*/
+    line-height: 24px;
+    /*margin-top: -4.3013434410095215px;*/
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.397313117980957px;
+    color: rgba(0,0,0,0.6);
+    letter-spacing: 0.0974195957183838px;
+}
+
+.Card_Small_Text_White {
+    /*left: 46px;*/
+    /*top: 561px;*/
+    /*position: absolute;*/
+    overflow: visible;
+    /*width: 254px;*/
+    /*height: 43px;*/
+    line-height: 24px;
+    /*margin-top: -4.3013434410095215px;*/
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.397313117980957px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.0974195957183838px;
+}
+
+.Card_Rect {
+    height: 45px;
+    width: 1px;
+    background-color: rgba(85, 85, 85, 0.49);
+}
+
+.Card_Rect_White {
+    height: 45px;
+    width: 1px;
+    background-color: rgba(255, 255, 255, 0.49);
+    margin-right: 5px;
+}
+
+.Form_White_Button_Styles_Try_Paid {
+    background-color: rgb(255, 255, 255);
+    /*width: 243px;*/
+    height: 60px;
+
+    border: none;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 1);
+    letter-spacing: 0.9278056335449218px;
+    text-transform: uppercase;
+}
+
+.Form_Blue_Button_Styles_Try_Paid {
+    background-color: rgba(0,161,241,1);
+    /*width: 10vw;*/
+    height: 60px;
+
+
+
+    border: none;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.9278056335449218px;
+    text-transform: uppercase;
+}
+
+
+.Box_Container {
+    padding-left: 150px; padding-right: 150px;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1300px) {
+    .Box_Container {
+        padding-left: 10px; padding-right: 10px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .Title_Fluid {
+        font-size: 5vw;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .Box_Container {
+        padding-left: 10px; padding-right: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .Card_Title, .Card_Title_White {
+        font-size: 5vw;
+    }
+}

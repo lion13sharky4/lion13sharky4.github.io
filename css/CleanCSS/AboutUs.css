@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+
+
+/*
+Overwritting default background image
+*/
+.Main_Card {
+    height: 700px;
+    background:transparent url('../../images/Clean/AboutUsClean/woman-in-white-t-shirt-using-a@2x.png') no-repeat top center /cover;
+}
+
+
+
+
+
+.General_Title_About_Us {
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    color: rgba(0,0,0,0.871);
+}
+
+.General_Subtitle_About_Us {
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    color: rgba(0,0,0,0.871);
+}
+
+.MeetTheTeamRectangleFluid {
+    /*position: absolute;*/
+    height: 600px;
+    width: 1px;
+    /*object-fit: cover;*/
+    /*top: 0px;*/
+    /*overflow: visible;*/
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+@media (max-width: 990px) {
+    .MeetTheTeamRectangleFluid {
+        height: 1px;
+        width: 333px;
+    }
+}

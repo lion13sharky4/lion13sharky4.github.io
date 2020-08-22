@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700;800&display=swap');
+
+
+
+
+
+.Video_Blob_Fluid {
+    position: absolute;
+    /*width: 10vw;*/
+    /*height: 20vh;*/
+    width: 150px;
+    height: 150px;
+    /*left: 50px;*/
+    /*top: 300px;*/
+    overflow: visible;
+
+    margin-top: -130px;
+    margin-left: 50px;
+    z-index: -1;
+}
+.Video_Class_Fluid {
+    position: absolute;
+    width: 40vw;
+    height: 40vh;
+    /*left: 22  0px;*/
+    /*top: 0px;*/
+    object-fit: cover;
+    overflow: visible;
+}
+
+.Title_Fluid {
+    /*top: 189px;*/
+    /*position: absolute;*/
+    /*overflow: visible;*/
+    /*width: 1480px;*/
+    /*height: 151px;*/
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    color: rgba(0,0,0,1);
+    letter-spacing: 0.3px;
+}
+
+.Form_Font {
+    /*top: 189px;*/
+    /*position: absolute;*/
+    /*overflow: visible;*/
+    /*width: 1480px;*/
+    /*height: 151px;*/
+    /*text-align: center;*/
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    /*font-size: 48px;*/
+    color: rgba(0,0,0,1);
+    letter-spacing: 0.3px;
+}
+
+.Form_Class {
+    background-color: white;
+    /*filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.149));*/
+    /*filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));*/
+    /*filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));*/
+    /*filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.149));*/
+    /*position: absolute;*/
+    /*overflow: visible;*/
+    /*width: 100vw;*/
+    /*height: 100vh;*/
+    /*left: 340px;*/
+    /*top: 278px;*/
+
+    padding: 10px;
+    /*margin: 100px;*/
+    margin-left: 200px;
+    margin-right: 200px;
+    /*height: 110vh;*/
+}
+
+.Form_Blue_Button_Styles_Try_Checkout {
+    background-color: rgba(0,161,241,1);
+    width: 456px;
+    height: 40px;
+    border: none;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.9278056335449218px;
+    text-transform: uppercase;
+}
+
+
+.Form_Title {
+    /*left: 412px;*/
+    /*top: 311px;*/
+    /*position: absolute;*/
+    /*overflow: visible;*/
+    /*width: 340px;*/
+    /*height: 50px;*/
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgba(0,0,0,1);
+    letter-spacing: 0.3px;
+}
+.Form_Subtitle {
+    /*left: 412px;*/
+    /*top: 350px;*/
+    /*position: absolute;*/
+    /*overflow: visible;*/
+    /*width: 100vw;*/
+    /*height: 24px;*/
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: rgba(0,0,0,1);
+    letter-spacing: 0.3px;
+}
+
+.Card_Rect {
+    height: 1px;
+    /*width: 1px;*/
+    background-color: rgba(85, 85, 85, 0.49);
+}
+
+
+.Card_Options_Image {
+    /*position: absolute;*/
+    width: 241px;
+    height: 121px;
+    margin-top: -55px;
+    margin-left: -10px;
+    /*left: 271px;*/
+    /*top: 682px;*/
+    /*overflow: visible;*/
+}
+.Lock_Image {
+    /*position: absolute;*/
+    width: 45px;
+    height: 45px;
+    margin-top: -15px;
+    /*margin-left: -10px;*/
+    /*left: 227px;*/
+    /*top: 717px;*/
+    /*overflow: visible;*/
+}
+
+.Payment_Disclaimer_Text {
+    /*left: 404px;*/
+    /*top: 1233px;*/
+    /*position: absolute;*/
+    /*overflow: visible;*/
+    /*width: 622px;*/
+    /*height: 82px;*/
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(0,0,0,1);
+    letter-spacing: 0.3px;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+    .Form_Class {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .Title_Fluid {
+        font-size: 6vw;
+    }
+}
+
+
+@media screen and (max-width: 415px) {
+}
